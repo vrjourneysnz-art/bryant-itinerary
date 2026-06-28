@@ -29,6 +29,9 @@ body{font-family:'Poppins',-apple-system,sans-serif; color:var(--text-dark); bac
 .hero-stat{display:flex; justify-content:space-between; gap:18px; padding:5px 0; font-size:12.5px; border-bottom:1px solid rgba(255,255,255,.12);}
 .hero-stat:last-child{border-bottom:none;}
 .hero-stat .k{color:#bfe2f0;} .hero-stat .v{font-weight:600; text-align:right;}
+.hero-map{position:absolute; top:16px; right:28px; width:340px; max-width:40%; z-index:1; pointer-events:none;}
+.hero-map svg{width:100%; height:auto; display:block;}
+@media (max-width:760px){ .hero-map{position:static; width:100%; max-width:360px; margin:22px auto 0; right:auto; top:auto;} }
 
 /* BRAND STRIP */
 .brand-strip{background:var(--yellow); padding:11px 48px; display:flex; align-items:center; justify-content:space-between;}
@@ -151,6 +154,41 @@ body{font-family:'Poppins',-apple-system,sans-serif; color:var(--text-dark); bac
         <div class="hero-stat"><span class="k">Depart</span><span class="v">Christchurch, New Zealand</span></div>
         <div class="hero-stat"><span class="k">Travel Style</span><span class="v">Domestic Flight, Self-Drive Rental Cars &amp; Transfers</span></div>
       </div>
+    </div>
+    <div class="hero-map">
+<svg viewBox="718 42 380 372" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Poppins, system-ui, sans-serif">
+<title>Route map — Auckland to Christchurch, 13 overnight stops</title>
+<desc>Self-drive route across New Zealand's North and South Islands with one internal flight from Napier to Nelson.</desc>
+<defs><filter id="hmGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="#5EC7D0" fill-opacity="0.16" stroke="#5EC7D0" stroke-opacity="0.35" stroke-width="1">
+<path d="M985,46 C1030,56 1074,110 1089,136 C1080,176 1030,212 1001,250 C982,236 961,216 953,191 C946,166 950,120 960,86 C968,63 976,51 985,46 Z"/>
+<path d="M936,233 C906,249 876,260 846,286 C816,311 786,336 766,361 C779,373 801,379 826,386 C861,393 896,389 916,376 C906,346 881,321 866,301 C901,281 926,260 936,233 Z"/>
+</g>
+<polyline points="979,111 1010,112 1023,148 1018,164 1043,186" fill="none" stroke="#E2E22D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#hmGlow)"/>
+<polyline points="935,237 956,244 874,270 844,297 813,335 799,344 771,355 853,368 843,303 916,301" fill="none" stroke="#E2E22D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#hmGlow)"/>
+<path d="M1043,186 Q975,200 935,237" fill="none" stroke="#9FE7EE" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/>
+<text x="999" y="203" fill="#9FE7EE" font-size="10">✈ fly</text>
+<g fill="#9FE7EE"><circle cx="1023" cy="148" r="2.5"/><circle cx="799" cy="344" r="2.5"/></g>
+<g font-size="10" fill="#ffffff">
+<circle cx="979" cy="111" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="979" y="114" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">1</text><text x="971" y="108" text-anchor="end" font-weight="600">Auckland</text>
+<circle cx="1010" cy="112" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="1010" y="115" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">2</text><text x="1019" y="108" font-weight="600">Hahei</text>
+<circle cx="1018" cy="164" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="1018" y="167" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">3</text><text x="1027" y="167" font-weight="600">Taupō</text>
+<circle cx="1043" cy="186" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="1043" y="189" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">4</text><text x="1052" y="189" font-weight="600">Napier</text>
+<circle cx="935" cy="237" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="935" y="240" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">5</text><text x="927" y="234" text-anchor="end" font-weight="600">Nelson</text>
+<circle cx="956" cy="244" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="956" y="247" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">6</text><text x="965" y="252" font-weight="600">Blenheim</text>
+<circle cx="874" cy="270" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="874" y="273" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">7</text><text x="866" y="270" text-anchor="end" font-weight="600">Greymouth</text>
+<circle cx="844" cy="297" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="844" y="300" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">8</text><text x="836" y="296" text-anchor="end" font-weight="600">Franz Josef</text>
+<circle cx="813" cy="335" r="6" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="813" y="338" text-anchor="middle" font-size="8" font-weight="700" fill="#0B3F6B">9</text><text x="805" y="335" text-anchor="end" font-weight="600">Wanaka</text>
+<circle cx="771" cy="355" r="6.5" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="771" y="358" text-anchor="middle" font-size="7.5" font-weight="700" fill="#0B3F6B">10</text><text x="763" y="356" text-anchor="end" font-weight="600">Te Anau</text>
+<circle cx="853" cy="368" r="6.5" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="853" y="371" text-anchor="middle" font-size="7.5" font-weight="700" fill="#0B3F6B">11</text><text x="862" y="375" font-weight="600">Dunedin</text>
+<circle cx="843" cy="303" r="6.5" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="843" y="306" text-anchor="middle" font-size="7.5" font-weight="700" fill="#0B3F6B">12</text><text x="833" y="314" text-anchor="end" font-weight="600">Mt Cook</text>
+<circle cx="916" cy="301" r="6.5" fill="#E2E22D" stroke="#0B3F6B" stroke-width="1.5"/><text x="916" y="304" text-anchor="middle" font-size="7.5" font-weight="700" fill="#0B3F6B">13</text><text x="925" y="300" font-weight="600">Christchurch</text>
+</g>
+<g font-size="10" fill="#BFE0EA">
+<line x1="770" y1="404" x2="792" y2="404" stroke="#E2E22D" stroke-width="3" stroke-linecap="round"/><text x="798" y="407">Self-drive route</text>
+<line x1="892" y1="404" x2="914" y2="404" stroke="#9FE7EE" stroke-width="2" stroke-dasharray="2 5"/><text x="920" y="407">Internal flight</text>
+</g>
+</svg>
     </div>
   </div>
   <div class="brand-strip">
