@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Virtual Journeys – New Zealand 32-Day Itinerary – Bryant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200&display=swap" rel="stylesheet">
+<style>:root{
+  --dark-blue:#0B4A7A; --teal:#5EC7D0; --yellow:#E2E22D;
+  --white:#FFFFFF; --off-white:#F5F8FB; --mid-grey:#E8EEF4;
+  --text-dark:#0D1F2D; --text-mid:#4A6070; --text-light:#8099AD;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{font-family:'Poppins',-apple-system,sans-serif; color:var(--text-dark); background:var(--off-white); line-height:1.5; font-size:13.5px;}
+.wrap{max-width:1080px; margin:0 auto; background:var(--white); box-shadow:0 2px 30px rgba(11,74,122,.08);}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,#0B4A7A 0%,#0d5a93 60%,#117a9e 100%); color:#fff; padding:42px 48px 38px; position:relative; overflow:hidden;}
+.hero:before{content:""; position:absolute; right:-60px; top:-60px; width:280px; height:280px; border-radius:50%; background:rgba(94,199,208,.18);}
+.hero-eyebrow{color:var(--yellow); font-weight:700; font-size:12px; letter-spacing:.18em; text-transform:uppercase; margin-bottom:14px;}
+.hero-name{font-size:34px; font-weight:700; line-height:1.15; position:relative; z-index:1;}
+.hero-name .hl{color:var(--yellow);}
+.hero-dest{font-style:italic; font-weight:200; font-size:19px; margin-top:6px; color:#d6ecf5;}
+.hero-flex{display:flex; justify-content:space-between; align-items:flex-end; gap:30px; flex-wrap:wrap;}
+.hero-pills{margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;}
+.hero-pill{background:rgba(255,255,255,.13); border:1px solid rgba(255,255,255,.25); border-radius:30px; padding:6px 15px; font-size:12px; font-weight:500;}
+.hero-stats{background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.22); border-radius:14px; padding:18px 22px; min-width:215px; position:relative; z-index:1;}
+.hero-stat{display:flex; justify-content:space-between; gap:18px; padding:5px 0; font-size:12.5px; border-bottom:1px solid rgba(255,255,255,.12);}
+.hero-stat:last-child{border-bottom:none;}
+.hero-stat .k{color:#bfe2f0;} .hero-stat .v{font-weight:600; text-align:right;}
+
+/* BRAND STRIP */
+.brand-strip{background:var(--yellow); padding:11px 48px; display:flex; align-items:center; justify-content:space-between;}
+.brand-strip .logo{font-weight:700; letter-spacing:.14em; color:var(--dark-blue); font-size:15px;}
+.brand-strip .tag{color:var(--dark-blue); font-size:11.5px; font-weight:500; letter-spacing:.04em;}
+
+/* SECTION HEADERS */
+.sec{padding:30px 48px 4px;}
+.sec-title{font-size:13px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--dark-blue); margin-bottom:4px;}
+.sec-rule{height:3px; width:54px; background:var(--teal); border-radius:3px; margin-bottom:16px;}
+
+/* SEASONAL */
+.season{margin:0 48px 6px; background:var(--off-white); border-left:4px solid var(--teal); border-radius:8px; padding:16px 20px; font-size:12.8px; color:var(--text-mid);}
+.season strong{color:var(--dark-blue);}
+
+/* SNAPSHOT TABLE */
+.snap-wrap{padding:6px 48px 8px; overflow-x:auto;}
+.snap-table{width:100%; border-collapse:collapse; font-size:12px; border-radius:10px; overflow:hidden; box-shadow:0 1px 8px rgba(11,74,122,.07);}
+.snap-table th{background:var(--dark-blue); color:var(--yellow); text-align:left; padding:11px 12px; font-weight:600; font-size:11px; letter-spacing:.04em; text-transform:uppercase;}
+.snap-table td{padding:10px 12px; border-bottom:1px solid var(--mid-grey); vertical-align:top;}
+.snap-table tr:nth-child(even) td{background:var(--off-white);}
+.snap-date{font-weight:600; color:var(--dark-blue); white-space:nowrap;}
+.snap-flag{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px;}
+.snap-flag.nz{background:var(--teal);}
+.snap-loc-name{font-weight:600;}
+.snap-nights small{display:block; font-size:9px; color:var(--text-light); font-weight:400;}
+.snap-nights{text-align:center; font-weight:700; color:var(--dark-blue);}
+.snap-highlight{color:var(--text-mid);}
+.snap-drive{color:var(--text-mid); font-size:11.3px;}
+.snap-map a{color:var(--teal); font-weight:600; text-decoration:none; white-space:nowrap;}
+
+/* REGION DIVIDER */
+.region-divider{padding:26px 48px 4px; display:flex; align-items:center; gap:14px;}
+.region-pill{background:var(--dark-blue); color:var(--yellow); padding:7px 18px; border-radius:30px; font-weight:700; font-size:12px; letter-spacing:.06em; text-transform:uppercase;}
+.region-divider:after{content:""; flex:1; height:2px; background:var(--mid-grey);}
+
+/* DAY CARDS */
+.days-wrap{padding:6px 48px 30px;}
+.day-card{display:flex; background:var(--white); border:1px solid var(--mid-grey); border-radius:14px; overflow:hidden; margin-top:18px; box-shadow:0 1px 10px rgba(11,74,122,.05);}
+.card-accent{width:7px; flex-shrink:0;}
+.card-accent.nz{background:linear-gradient(var(--teal),#3fa9b3);}
+.card-accent.transit{background:linear-gradient(var(--yellow),#c9c916);}
+.card-body{flex:1; min-width:0;}
+.card-hdr{display:flex; justify-content:space-between; align-items:flex-start; gap:14px; padding:16px 22px 12px; background:linear-gradient(180deg,var(--off-white),#fff); border-bottom:1px solid var(--mid-grey);}
+.card-dayline{font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--teal);}
+.card-nights{color:var(--text-light); margin-left:8px; text-transform:none; letter-spacing:0; font-weight:500;}
+.card-location{font-size:19px; font-weight:700; color:var(--dark-blue); margin-top:3px;}
+.card-hdr-right{display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-end;}
+.badge{font-size:10px; font-weight:600; padding:4px 10px; border-radius:20px; white-space:nowrap;}
+.badge.drive{background:#fff6c9; color:#8a7400;}
+.badge.fly{background:#dcf0f5; color:#0b6478;}
+.badge.walk{background:#e4f3e0; color:#41702f;}
+.badge.flag-nz{background:var(--mid-grey); color:var(--dark-blue);}
+.card-inner{padding:16px 22px 4px;}
+.card-arrival{background:#eaf6f8; border:1px dashed var(--teal); color:#0b6478; font-weight:500; font-size:12px; border-radius:8px; padding:8px 12px; margin-bottom:12px;}
+.card-intro{font-size:13px; color:var(--text-mid); line-height:1.6; margin-bottom:12px;}
+.drive-sights{background:var(--off-white); border-radius:8px; padding:10px 14px; margin-bottom:14px;}
+.drive-sights .ds-title{font-size:10.5px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--dark-blue); margin-bottom:5px;}
+.drive-sights ul{list-style:none; font-size:12px; color:var(--text-mid);}
+.drive-sights li{padding:2px 0 2px 16px; position:relative;}
+.drive-sights li:before{content:"\\1F4CD"; position:absolute; left:0; font-size:10px;}
+.drive-sights strong{color:var(--text-dark);}
+
+.card-grid{column-count:2; column-gap:26px;}
+@media(max-width:720px){.card-grid{column-count:1;}}
+.cg-block{break-inside:avoid; margin-bottom:16px;}
+.cg-title{font-size:11px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; margin-bottom:8px; padding-bottom:4px; border-bottom:2px solid var(--mid-grey);}
+.cg-title.nz{color:var(--dark-blue);}
+.cg-item{margin-bottom:9px;}
+.cg-item.compact{margin-bottom:3px;}
+.cg-item-name{font-size:12.3px; font-weight:500; color:var(--text-dark);}
+.cg-item-icon{margin-right:6px;}
+.cg-item-sub{font-size:10.8px; color:var(--text-light); margin-top:1px; line-height:1.35;}
+.cg-item.compact .cg-item-sub{margin-top:0; line-height:1.3; font-size:10.5px;}
+.cg-link{font-size:10.8px; color:var(--teal); text-decoration:none; font-weight:600; word-break:break-all;}
+.cg-link:hover{text-decoration:underline;}
+.cg-missing{font-size:10.5px; color:#b06a00; font-style:italic;}
+.cg-item-sub a{color:var(--teal); text-decoration:none;}
+.accom-item{margin-bottom:10px;}
+.accom-item.all{padding-top:6px; border-top:1px dotted var(--mid-grey);}
+.accom-star{display:inline-block; background:var(--dark-blue); color:var(--yellow); font-size:10px; font-weight:700; padding:2px 7px; border-radius:6px; margin-right:7px;}
+.accom-name{font-weight:500; font-size:12.3px;}
+
+/* CARD FOOTER */
+.card-footer{padding:12px 22px 16px; border-top:1px solid var(--mid-grey); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; background:var(--off-white);}
+.card-footer-route{font-size:11.6px; color:var(--text-mid); flex:1; min-width:200px;}
+.card-footer-route em{color:var(--text-light); font-style:italic;}
+.map-btn{background:var(--dark-blue); color:var(--yellow); text-decoration:none; font-size:11px; font-weight:600; padding:7px 14px; border-radius:20px; white-space:nowrap;}
+.no-drive{font-size:11.6px; color:var(--text-light); font-style:italic;}
+
+/* FOOTER */
+.footer{background:var(--dark-blue); color:#cfe6f2; padding:34px 48px 26px;}
+.footer-grid{display:grid; grid-template-columns:1fr 1.2fr 1fr; gap:34px;}
+@media(max-width:720px){.footer-grid{grid-template-columns:1fr;}}
+.footer-col-title{color:var(--yellow); font-weight:700; font-size:12px; letter-spacing:.06em; text-transform:uppercase; margin-bottom:11px;}
+.footer-col a{display:block; color:#cfe6f2; text-decoration:none; font-size:12px; padding:3px 0; border-bottom:1px solid rgba(255,255,255,.06);}
+.footer-col a:hover{color:#fff;}
+.footer-base{margin-top:28px; padding-top:20px; border-top:1px solid rgba(255,255,255,.15); text-align:center;}
+.footer-logo{color:#fff; font-weight:700; letter-spacing:.18em; font-size:16px;}
+.footer-tag{color:var(--teal); font-size:12px; margin-top:4px; font-weight:500;}
+.footer-fine{color:#8fb6cd; font-size:10.5px; margin-top:12px;}
+</style></head>
+<body><div class="wrap">
+  <div class="hero">
+    <div class="hero-eyebrow">Virtual Journeys · Personalised Travel Itinerary</div>
+    <div class="hero-flex">
+      <div>
+        <div class="hero-name">Jonathan &amp; Vicky <span class="hl">Bryant</span></div>
+        <div class="hero-dest"><em>A Premium New Zealand Journey · North &amp; South Islands</em></div>
+        <div class="hero-pills">
+          <span class="hero-pill">📅 15 March – 15 April 2027</span>
+          <span class="hero-pill">🌏 New Zealand</span>
+          <span class="hero-pill">⭐ 4 – 5 Star</span>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><span class="k">Duration</span><span class="v">32 Days / 31 Nights</span></div>
+        <div class="hero-stat"><span class="k">Travellers</span><span class="v">2 Adults</span></div>
+        <div class="hero-stat"><span class="k">Arrive</span><span class="v">Auckland, New Zealand</span></div>
+        <div class="hero-stat"><span class="k">Depart</span><span class="v">Christchurch, New Zealand</span></div>
+        <div class="hero-stat"><span class="k">Travel Style</span><span class="v">Domestic Flight, Self-Drive Rental Cars &amp; Transfers</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="brand-strip">
+    <span class="logo">VIRTUAL JOURNEYS</span>
+    <span class="tag">35+ years of first-hand New Zealand &amp; Australia travel expertise</span>
+  </div>
+  <div class="sec"><div class="sec-title">Trip Snapshot</div><div class="sec-rule"></div></div>
+  <div class="season"><strong>Seasonal Overview – Autumn (March–April):</strong> Autumn – one of the loveliest times to tour New Zealand. Expect settled, mild days (14–22°C), gorgeous light and far thinner crowds than summer. Your timing is ideal for <strong>Central Otago and Wanaka's golden autumn colour</strong> (early–mid April is peak) and for <strong>wine-harvest season</strong> in Hawke's Bay and Marlborough. Pack warm layers for the alpine stops (Tongariro, Aoraki/Mt Cook) and a rain shell for the West Coast – daylight shortens to roughly 7am–7pm by mid-April.</div>
+  <div class="snap-wrap"><table class="snap-table"><thead><tr>
+    <th>Dates</th><th>Location</th><th style="text-align:center">Nights</th>
+    <th>Highlight</th><th>Drive / Transfer</th><th style="text-align:center">Time &amp; Distance</th><th>Map</th>
+  </tr></thead><tbody>
+      <tr>
+        <td class="snap-date">15–16 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Auckland</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Arrival · harbour city &amp; Waiheke</td>
+        <td class="snap-drive">Private airport transfer</td>
+        <td class="snap-drive" style="text-align:center">–</td>
+        <td class="snap-map">–</td>
+      </tr>
+      <tr>
+        <td class="snap-date">17–18 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Hahei / Coromandel</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Cathedral Cove, sea caves, golden beaches</td>
+        <td class="snap-drive">Self-drive via Kawakawa Bay</td>
+        <td class="snap-drive" style="text-align:center">~3 hrs / ~195 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Auckland&amp;destination=Hahei&amp;waypoints=Kawakawa+Bay|Thames&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">19–21 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Taupō (Rotorua & Tongariro)</span></td>
+        <td class="snap-nights">3<small>nights</small></td>
+        <td class="snap-highlight">Geothermal valleys, lake, alpine volcanoes</td>
+        <td class="snap-drive">Self-drive via Rotorua</td>
+        <td class="snap-drive" style="text-align:center">~4 hrs / ~330 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hahei&amp;destination=Taupo&amp;waypoints=Rotorua&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">22–24 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Napier / Hawke's Bay</span></td>
+        <td class="snap-nights">3<small>nights</small></td>
+        <td class="snap-highlight">Art Deco, wineries, gannet colony</td>
+        <td class="snap-drive">Self-drive Napier-Taupō Rd</td>
+        <td class="snap-drive" style="text-align:center">~2.5 hrs / ~150 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Taupo&amp;destination=Napier&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">25–27 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Nelson / Tasman</span></td>
+        <td class="snap-nights">3<small>nights</small></td>
+        <td class="snap-highlight">Abel Tasman, beaches, art &amp; wine</td>
+        <td class="snap-drive">Car drop · ✈ via Wellington · car pick-up</td>
+        <td class="snap-drive" style="text-align:center">Flights via Wellington</td>
+        <td class="snap-map">–</td>
+      </tr>
+      <tr>
+        <td class="snap-date">28–29 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Blenheim / Marlborough</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Sauvignon Blanc country, Omaka aviation</td>
+        <td class="snap-drive">Self-drive via Pelorus</td>
+        <td class="snap-drive" style="text-align:center">~1.5 hrs / ~115 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Nelson&amp;destination=Blenheim&amp;waypoints=Pelorus+Bridge|Havelock&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">30–31 Mar</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Greymouth / Punakaiki</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Pancake Rocks, blowholes, wild coast</td>
+        <td class="snap-drive">Self-drive via St Arnaud</td>
+        <td class="snap-drive" style="text-align:center">~4.5 hrs / ~350 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Blenheim&amp;destination=Greymouth&amp;waypoints=St+Arnaud|Murchison|Reefton&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">1–2 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Franz Josef</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Glacier country &amp; West Coast rainforest</td>
+        <td class="snap-drive">Self-drive via Hokitika</td>
+        <td class="snap-drive" style="text-align:center">~2.5 hrs / ~175 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Greymouth&amp;destination=Franz+Josef&amp;waypoints=Hokitika&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">3–5 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Wanaka / Cromwell</span></td>
+        <td class="snap-nights">3<small>nights</small></td>
+        <td class="snap-highlight">Autumn-gold lakes, Central Otago wine</td>
+        <td class="snap-drive">Self-drive via Haast Pass</td>
+        <td class="snap-drive" style="text-align:center">~5 hrs / ~360 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Franz+Josef&amp;destination=Wanaka&amp;waypoints=Haast|Makarora&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">6–8 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Te Anau / Fiordland</span></td>
+        <td class="snap-nights">3<small>nights</small></td>
+        <td class="snap-highlight">Milford &amp; Doubtful Sounds, glowworms</td>
+        <td class="snap-drive">Self-drive via Queenstown</td>
+        <td class="snap-drive" style="text-align:center">~3.5 hrs / ~290 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Wanaka&amp;destination=Te+Anau&amp;waypoints=Queenstown&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">9–10 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Dunedin</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Catlins coast, Otago Peninsula wildlife</td>
+        <td class="snap-drive">Self-drive Southern Scenic Rte</td>
+        <td class="snap-drive" style="text-align:center">~5.5 hrs / ~430 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Te+Anau&amp;destination=Dunedin&amp;waypoints=Nugget+Point|Curio+Bay&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">11–12 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Aoraki / Mt Cook</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Hooker Valley, Mackenzie dark skies</td>
+        <td class="snap-drive">Self-drive via Oamaru</td>
+        <td class="snap-drive" style="text-align:center">~4 hrs / ~330 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Dunedin&amp;destination=Aoraki+Mount+Cook&amp;waypoints=Oamaru|Lake+Pukaki&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">13–14 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Christchurch</span></td>
+        <td class="snap-nights">2<small>nights</small></td>
+        <td class="snap-highlight">Garden City, Akaroa &amp; Banks Peninsula</td>
+        <td class="snap-drive">Self-drive Inland Scenic Rte</td>
+        <td class="snap-drive" style="text-align:center">~4.5 hrs / ~340 km</td>
+        <td class="snap-map"><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Aoraki+Mount+Cook&amp;destination=Christchurch&amp;waypoints=Lake+Tekapo|Geraldine&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open</a></td>
+      </tr>
+      <tr>
+        <td class="snap-date">15 Apr</td>
+        <td><span class="snap-flag nz"></span><span class="snap-loc-name">Departure</span></td>
+        <td class="snap-nights">–</td>
+        <td class="snap-highlight">Fly Christchurch → Auckland → home</td>
+        <td class="snap-drive">Car drop · ✈ CHC → AKL → home</td>
+        <td class="snap-drive" style="text-align:center">–</td>
+        <td class="snap-map">–</td>
+      </tr>
+  </tbody></table></div>
+  <div class="sec"><div class="sec-title">Day-by-Day Travel Itinerary</div><div class="sec-rule"></div></div>
+  <div class="days-wrap">
+<div class="region-divider"><span class="region-pill">🇳🇿 New Zealand – North Island</span></div>
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 1 · Mon 15 Mar 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Auckland</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge fly">✈ Arrive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      <div class="card-arrival">Arrive Auckland International Airport – private transfer to inner-city hotel</div>
+      <div class="card-intro">Welcome to New Zealand. Auckland – the City of Sails – is a relaxed harbour city wrapped around two glittering harbours and dotted with volcanic cones. With two nights to settle in and shake off the flight, you can stroll the Viaduct, ride up the Sky Tower, or hop the ferry to an island winery. A gentle, scenic start to a month of discovery.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">✈️</span>International Arrival – Auckland (AKL) – Book direct with airline</div><span class="cg-missing">⚠ link to confirm</span></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚖</span>Airport Transfer – Auckland city – Airport Transfers</div><a class="cg-link" href="https://geni.us/AirportTransfers" target="_blank" rel="noopener">geni.us/AirportTransfers</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Fullers Waiheke Island Ferry</div><a class="cg-link" href="https://geni.us/FullersAuckland" target="_blank" rel="noopener">geni.us/FullersAuckland</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Aucky Walky – Guided City Walking Tour</div><a class="cg-link" href="https://geni.us/AuckyWalky" target="_blank" rel="noopener">geni.us/AuckyWalky</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Auckland Hop-on Hop-off Bus</div><a class="cg-link" href="https://geni.us/AucklandHopOnCoach" target="_blank" rel="noopener">geni.us/AucklandHopOnCoach</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Auckland War Memorial Museum</div><a class="cg-link" href="https://geni.us/AucklandMuseum" target="_blank" rel="noopener">geni.us/AucklandMuseum</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Auckland Art Gallery Toi o Tāmaki</div><a class="cg-link" href="https://geni.us/AKLArtGallery" target="_blank" rel="noopener">geni.us/AKLArtGallery</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>ExploreNZ Harbour Sailing</div><a class="cg-link" href="https://geni.us/ExploreNZSail" target="_blank" rel="noopener">geni.us/ExploreNZSail</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Auckland Whale &amp; Dolphin Safari</div><a class="cg-link" href="https://geni.us/AucklandWhaleDolphin" target="_blank" rel="noopener">geni.us/AucklandWhaleDolphin</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Adina Citylife Auckland</span><br><a class="cg-link" href="https://geni.us/AdinaAuckland" target="_blank" rel="noopener">geni.us/AdinaAuckland</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Novotel Auckland Airport</span><br><a class="cg-link" href="https://geni.us/NovotelAKLAirport" target="_blank" rel="noopener">geni.us/NovotelAKLAirport</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Park Hyatt Auckland</span><br><a class="cg-link" href="https://geni.us/ParkHyattAuckland" target="_blank" rel="noopener">geni.us/ParkHyattAuckland</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/AucklandHotels" target="_blank" rel="noopener">geni.us/AucklandHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mt Eden Summit Walk – 45–60 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Auckland Domain &amp; Wintergardens Loop – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Wynyard Quarter &amp; Viaduct Waterfront – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Rangitoto Summit Track (ferry) – 2 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Sid at The French Café</div><div class="cg-item-sub">210 Symonds St, Eden Terrace<br><a href="https://www.sidatthefrenchcafe.co.nz" target="_blank" rel="noopener">www.sidatthefrenchcafe.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hello Beasty</div><div class="cg-item-sub">95–97 Customs St West, CBD<br><a href="https://www.hellobeasty.nz" target="_blank" rel="noopener">www.hellobeasty.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Sky Tower</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Auckland Waterfront &amp; Viaduct</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Waiheke Island Wineries</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Auckland Art Gallery</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 2 · Tue 16 Mar 2027 </div>
+        <div class="card-location">Auckland – Waiheke Island</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day to enjoy Auckland. Our pick: hop the ferry to Waiheke Island – just 40 minutes across the harbour – for a day of vineyards, olive groves, art studios and golden bays. Back in the city, the waterfront, museums and Polynesian food scene round out a perfect easing-in day.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Fullers Waiheke Island Ferry</div><a class="cg-link" href="https://geni.us/FullersAuckland" target="_blank" rel="noopener">geni.us/FullersAuckland</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Ananda Tours – Waiheke Wine &amp; Art</div><a class="cg-link" href="https://geni.us/AnandaWaiheke" target="_blank" rel="noopener">geni.us/AnandaWaiheke</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Bush &amp; Beach West Coast Tour</div><a class="cg-link" href="https://geni.us/BushBeachAKL" target="_blank" rel="noopener">geni.us/BushBeachAKL</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>ExploreNZ Harbour Sailing</div><a class="cg-link" href="https://geni.us/ExploreNZSail" target="_blank" rel="noopener">geni.us/ExploreNZSail</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Waiheke Headland Sculpture Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Coastal Walkway (Oneroa–Palm Beach) – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Long Bay Coastal Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tiritiri Matangi Island Loop (sanctuary) – 2–3 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hello Beasty</div><div class="cg-item-sub">95–97 Customs St West, CBD<br><a href="https://www.hellobeasty.nz" target="_blank" rel="noopener">www.hellobeasty.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Sid at The French Café</div><div class="cg-item-sub">210 Symonds St, Eden Terrace<br><a href="https://www.sidatthefrenchcafe.co.nz" target="_blank" rel="noopener">www.sidatthefrenchcafe.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Waiheke Island Wineries</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hauraki Gulf Dolphin Safari</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Auckland Harbour Bridge</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Matakana Farmers Market</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 3 · Wed 17 Mar 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Auckland → Hahei / Coromandel</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Collect your rental car and head for the Coromandel Peninsula, tracing the Kawakawa Bay coast and crossing the forested ranges to Hahei. This is classic Kiwi summer-coast country – pohutukawa-fringed coves, sculpted sea caves and the famous Cathedral Cove just around the headland. Two nights to swim, walk and slow right down.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Kawakawa Bay</strong> – Scenic coastal stretch hugging the Firth of Thames</li><li><strong>Thames</strong> – Historic gold-rush town – gateway to the Coromandel</li><li><strong>Tairua &amp; Pauanui</strong> – Twin harbour beach towns for a coffee or swim</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Rental Car Pick-up – Auckland – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Rental Car – alternative options – Discover Cars</div><a class="cg-link" href="https://geni.us/RentalCarOptions" target="_blank" rel="noopener">geni.us/RentalCarOptions</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove &amp; Coast Scenic Cruise</div><a class="cg-link" href="https://geni.us/CathedralCoast" target="_blank" rel="noopener">geni.us/CathedralCoast</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove Kayaking</div><a class="cg-link" href="https://geni.us/CathedralCoveKayak" target="_blank" rel="noopener">geni.us/CathedralCoveKayak</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove Snorkel Tour</div><a class="cg-link" href="https://geni.us/CathedralSnorkel" target="_blank" rel="noopener">geni.us/CathedralSnorkel</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove Sailing</div><a class="cg-link" href="https://geni.us/SailCathedral" target="_blank" rel="noopener">geni.us/SailCathedral</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Coromandel Zipline Tour</div><a class="cg-link" href="https://geni.us/CoromandelZipline" target="_blank" rel="noopener">geni.us/CoromandelZipline</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">The Church Accommodation, Hahei</span><br><a class="cg-link" href="https://geni.us/TheChurchHahei" target="_blank" rel="noopener">geni.us/TheChurchHahei</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">970 Lonely Bay Lodge</span><br><a class="cg-link" href="https://geni.us/970LonelyBay" target="_blank" rel="noopener">geni.us/970LonelyBay</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Mercury Ridge Lodge</span><br><a class="cg-link" href="https://geni.us/MercuryRidgeLodge" target="_blank" rel="noopener">geni.us/MercuryRidgeLodge</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/WhitiangaHotels" target="_blank" rel="noopener">geni.us/WhitiangaHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cathedral Cove Walk – 1.5–2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Hot Water Beach coastal walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>New Chum Beach Walk – 1–1.5 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Shakespeare Cliff Walk – 1 hr</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Luke&#x27;s Kitchen</div><div class="cg-item-sub">20 Black Jack Rd, Kuaotunu<br><a href="https://www.lukeskitchen.co.nz" target="_blank" rel="noopener">www.lukeskitchen.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Pepper Tree</div><div class="cg-item-sub">31 Kapanga Rd, Coromandel Town<br><a href="https://www.peppertreerestaurant.co.nz" target="_blank" rel="noopener">www.peppertreerestaurant.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Eggsentric Café</div><div class="cg-item-sub">1049 Purangi Rd, Cooks Beach</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Cathedral Cove</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hot Water Beach</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hahei Beach</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>New Chums Beach</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Coromandel Coastal Drive</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Auckland → Hahei via the Kawakawa Bay coastal road &nbsp;|&nbsp; <em>Stops: Kawakawa Bay · Thames · Tairua &amp; Pauanui</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Auckland&amp;destination=Hahei&amp;waypoints=Kawakawa+Bay|Thames&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 4 · Thu 18 Mar 2027 </div>
+        <div class="card-location">Hahei / Coromandel</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A free day in paradise. Paddle into hidden sea caves at Cathedral Cove, dig your own thermal spa at Hot Water Beach (best two hours either side of low tide), or wander the bays. The Coromandel rewards an unhurried pace – the day to do less and feel more.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove Kayaking – Sea Cave Tour</div><a class="cg-link" href="https://geni.us/CathedralCoveKayak" target="_blank" rel="noopener">geni.us/CathedralCoveKayak</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove Snorkel Tour</div><a class="cg-link" href="https://geni.us/CathedralSnorkel" target="_blank" rel="noopener">geni.us/CathedralSnorkel</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cathedral Cove &amp; Coast Cruise</div><a class="cg-link" href="https://geni.us/CathedralCoast" target="_blank" rel="noopener">geni.us/CathedralCoast</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Coromandel Zipline Tour</div><a class="cg-link" href="https://geni.us/CoromandelZipline" target="_blank" rel="noopener">geni.us/CoromandelZipline</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cathedral Cove Walk (early start) – 1.5–2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Gemstone Bay Snorkel Trail – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Wentworth Falls Track – 1–1.5 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Karangahake Windows Walk – 2 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Eggsentric Café</div><div class="cg-item-sub">1049 Purangi Rd, Cooks Beach</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Luke&#x27;s Kitchen</div><div class="cg-item-sub">20 Black Jack Rd, Kuaotunu<br><a href="https://www.lukeskitchen.co.nz" target="_blank" rel="noopener">www.lukeskitchen.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Cathedral Cove Kayaking</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hot Water Beach</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Driving Creek Railway</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Pinnacles Track</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 5 · Fri 19 Mar 2027 <span class="card-nights">🌙 3 nights</span></div>
+        <div class="card-location">Coromandel → Taupō (via Rotorua)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Today you cross into the volcanic heart of the North Island. Travel via Rotorua – New Zealand&#x27;s geothermal and Māori cultural capital – with its geysers, bubbling mud and living tradition, then continue to Taupō on the shores of Australasia&#x27;s largest lake. Three nights here open up the Lake Taupō and Tongariro alpine playground.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Te Puia, Rotorua</strong> – Geysers, mud pools &amp; Māori carving school – the signature mid-drive stop</li><li><strong>Wai-O-Tapu</strong> – Champagne Pool &amp; the Lady Knox Geyser</li><li><strong>Hobbiton (Matamata)</strong> – Optional Middle-earth film-set tour – book ahead</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Te Puia – Geothermal Valley &amp; Guided Walk</div><a class="cg-link" href="https://geni.us/TePuiaTour" target="_blank" rel="noopener">geni.us/TePuiaTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wai-O-Tapu Thermal Wonderland</div><a class="cg-link" href="https://geni.us/Waiotapu" target="_blank" rel="noopener">geni.us/Waiotapu</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hobbiton Movie Set Tour</div><a class="cg-link" href="https://geni.us/HobbitonTour" target="_blank" rel="noopener">geni.us/HobbitonTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mitai Māori Village – Concert &amp; Hangi</div><a class="cg-link" href="https://geni.us/MitaiHangi" target="_blank" rel="noopener">geni.us/MitaiHangi</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Waimangu Volcanic Valley</div><a class="cg-link" href="https://geni.us/WaimanguValley" target="_blank" rel="noopener">geni.us/WaimanguValley</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Redwoods Treewalk, Whakarewarewa</div><a class="cg-link" href="https://geni.us/RotoruaRedwoods" target="_blank" rel="noopener">geni.us/RotoruaRedwoods</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Huka Falls Jet (Taupō)</div><a class="cg-link" href="https://geni.us/HukaFallsJet" target="_blank" rel="noopener">geni.us/HukaFallsJet</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Lake Motel Taupo</span><br><a class="cg-link" href="https://geni.us/LakeTaupoMotel" target="_blank" rel="noopener">geni.us/LakeTaupoMotel</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Acacia Bay Lodge</span><br><a class="cg-link" href="https://geni.us/AcaciaLodgeTaupo" target="_blank" rel="noopener">geni.us/AcaciaLodgeTaupo</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Huka Lodge</span><br><a class="cg-link" href="https://geni.us/HukaLodge" target="_blank" rel="noopener">geni.us/HukaLodge</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/TaupoHotels" target="_blank" rel="noopener">geni.us/TaupoHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Huka Falls Walkway – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Spa Park to Huka Falls – 2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Craters of the Moon Loop – 45–60 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Tikitapu (Blue Lake) Loop – 1–2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>The Bistro</div><div class="cg-item-sub">17 Tamamutu St, Taupō<br><a href="https://www.thebistro.nz" target="_blank" rel="noopener">www.thebistro.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Storehouse</div><div class="cg-item-sub">14 Runanga St, Taupō<br><a href="https://www.storehouse.co.nz" target="_blank" rel="noopener">www.storehouse.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Plateau Bar + Eatery</div><div class="cg-item-sub">64 Tuwharetoa St, Taupō<br><a href="https://www.plateautaupo.co.nz" target="_blank" rel="noopener">www.plateautaupo.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Te Puia Geothermal Valley</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Huka Falls</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Wai-O-Tapu Thermal Park</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Whakarewarewa Living Village</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Taupō</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Hahei → Taupō via Rotorua&#x27;s geothermal valley &nbsp;|&nbsp; <em>Stops: Te Puia, Rotorua · Wai-O-Tapu · Hobbiton (Matamata)</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hahei&amp;destination=Taupo&amp;waypoints=Rotorua&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 6 · Sat 20 Mar 2027 </div>
+        <div class="card-location">Lake Taupō</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day around sparkling Lake Taupō. Cruise to the Māori rock carvings at Mine Bay, jet to the foot of thundering Huka Falls, soak in free riverside hot pools, or sample the cafés and lakefront. Geothermal wonders sit just up the road at Orakei Korako.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Huka Falls Jet</div><a class="cg-link" href="https://geni.us/HukaFallsJet" target="_blank" rel="noopener">geni.us/HukaFallsJet</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Orakei Korako Geothermal Park</div><a class="cg-link" href="https://geni.us/OrakeiKorako" target="_blank" rel="noopener">geni.us/OrakeiKorako</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Lake Taupō Kayaking (rock carvings)</div><a class="cg-link" href="https://geni.us/TaupoKayak" target="_blank" rel="noopener">geni.us/TaupoKayak</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Taupō Skydive</div><a class="cg-link" href="https://geni.us/TaupoSkyDive" target="_blank" rel="noopener">geni.us/TaupoSkyDive</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mt Tauhara Track – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Spa Park Hot Stream Walk – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Huka Falls Walkway – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Craters of the Moon Loop – 45–60 min</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Two Mile Bay Sailing Club</div><div class="cg-item-sub">331 Lake Terrace, Taupō<br><a href="https://www.2miletaupo.com" target="_blank" rel="noopener">www.2miletaupo.com</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Embra</div><div class="cg-item-sub">Central Taupō<br><a href="https://www.embra.nz" target="_blank" rel="noopener">www.embra.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Taupō Cruise</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Huka Falls Jet</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Orakei Korako Geothermal</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mine Bay Māori Carvings</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 7 · Sun 21 Mar 2027 </div>
+        <div class="card-location">Tongariro National Park</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Today, the dramatic volcanic landscapes of Tongariro National Park – a dual UNESCO World Heritage site and home to the Tongariro Alpine Crossing. Even if the full Crossing is a big ask, shorter tracks deliver emerald valleys, alpine waterfalls and those unmistakable volcanic cones. A guided option takes the worry out of the weather.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Guided Tongariro Alpine Crossing</div><a class="cg-link" href="https://geni.us/GuideTongariroCrossing" target="_blank" rel="noopener">geni.us/GuideTongariroCrossing</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Orakei Korako Geothermal Park</div><a class="cg-link" href="https://geni.us/OrakeiKorako" target="_blank" rel="noopener">geni.us/OrakeiKorako</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Taranaki Falls Track – 2 hrs loop</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Silica Rapids Track – 2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tawhai Falls Track – 20 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Rotopounamu Track – 2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mangatepopo Valley Track – 2 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>The Bistro</div><div class="cg-item-sub">17 Tamamutu St, Taupō<br><a href="https://www.thebistro.nz" target="_blank" rel="noopener">www.thebistro.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Plateau Bar + Eatery</div><div class="cg-item-sub">64 Tuwharetoa St, Taupō<br><a href="https://www.plateautaupo.co.nz" target="_blank" rel="noopener">www.plateautaupo.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Tongariro Alpine Crossing</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mt Ngauruhoe &amp; Mt Ruapehu</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Taranaki Falls</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Emerald &amp; Blue Lakes</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 8 · Mon 22 Mar 2027 <span class="card-nights">🌙 3 nights</span></div>
+        <div class="card-location">Taupō → Napier / Hawke&#x27;s Bay</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">An easy run down to the coast brings you to Napier – the world&#x27;s finest concentration of 1930s Art Deco architecture – and the wine-and-food paradise of Hawke&#x27;s Bay. You&#x27;ve arrived in harvest season, when the vineyards are golden and the cellar doors are buzzing. Three nights for wine, gannets, cycling and coastal sun.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Te Pōhue / Titiokura Summit</strong> – Sweeping ranges as you descend toward the coast</li><li><strong>Esk Valley</strong> – First of the Hawke&#x27;s Bay vineyards – cellar doors en route</li><li><strong>Bay View</strong> – Coastal arrival into the Art Deco city</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hawke&#x27;s Bay Food &amp; Wine Tour</div><a class="cg-link" href="https://geni.us/NapierWineTour" target="_blank" rel="noopener">geni.us/NapierWineTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cape Kidnappers Gannet Safari</div><a class="cg-link" href="https://geni.us/GannetsNapier" target="_blank" rel="noopener">geni.us/GannetsNapier</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hawke&#x27;s Bay Cycling Wine Trail</div><a class="cg-link" href="https://geni.us/NapierCycling" target="_blank" rel="noopener">geni.us/NapierCycling</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Mangapapa Lodge (luxury country estate)</span><br><a class="cg-link" href="https://geni.us/MangapapaLodge" target="_blank" rel="noopener">geni.us/MangapapaLodge</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Mangapapa Lodge – Premium Suites</span><br><a class="cg-link" href="https://geni.us/MangapapaLodge" target="_blank" rel="noopener">geni.us/MangapapaLodge</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Te Mata Peak Summit Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Napier Marine Parade Walk – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cape Kidnappers Walk (tide-dependent) – 4–5 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Ahuriri Estuary Walk – 1–2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Pacifica @ Craggy Range</div><div class="cg-item-sub">253 Waimarama Rd, Havelock North<br><a href="https://www.craggyrange.com" target="_blank" rel="noopener">www.craggyrange.com</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>The Thirsty Whale</div><div class="cg-item-sub">62 West Quay, Ahuriri<br><a href="https://www.thethirstywhale.co.nz" target="_blank" rel="noopener">www.thethirstywhale.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Peak House</div><div class="cg-item-sub">Te Mata Peak, Havelock North</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Napier Art Deco Quarter</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Cape Kidnappers Gannet Colony</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hawke&#x27;s Bay Wineries</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Te Mata Peak</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Marine Parade</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Taupō → Napier via the Napier-Taupō road &nbsp;|&nbsp; <em>Stops: Te Pōhue / Titiokura Summit · Esk Valley · Bay View</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Taupo&amp;destination=Napier&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 9 · Tue 23 Mar 2027 </div>
+        <div class="card-location">Hawke&#x27;s Bay – Wine &amp; Food</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day devoted to one of New Zealand&#x27;s great wine regions. Tour the cellar doors of Havelock North and the Gimblett Gravels – Syrah, Chardonnay and Bordeaux blends are the local heroes – with long lunches between. A guided wine tour means you can both enjoy the tastings, or cycle the flat vineyard trails at your own pace.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hawke&#x27;s Bay Food &amp; Wine Tour</div><a class="cg-link" href="https://geni.us/NapierWineTour" target="_blank" rel="noopener">geni.us/NapierWineTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hawke&#x27;s Bay Cycling Wine Trail</div><a class="cg-link" href="https://geni.us/NapierCycling" target="_blank" rel="noopener">geni.us/NapierCycling</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Te Mata Peak Loop – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tukituki River Trail – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Sunken Gardens &amp; Marine Parade – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Bluff Hill Lookout Walk – 45 min</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Pacifica @ Craggy Range</div><div class="cg-item-sub">253 Waimarama Rd, Havelock North<br><a href="https://www.craggyrange.com" target="_blank" rel="noopener">www.craggyrange.com</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Central Fire Station Bistro</div><div class="cg-item-sub">163 Tennyson St, Napier</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Gimblett Gravels Wineries</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Craggy Range</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Art Deco Napier</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Farmers&#x27; Markets</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 10 · Wed 24 Mar 2027 </div>
+        <div class="card-location">Hawke&#x27;s Bay – Coast &amp; Gannets</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Your second full Hawke&#x27;s Bay day. Take the gannet safari out to Cape Kidnappers – one of the world&#x27;s most accessible mainland gannet colonies – explore the Art Deco streets on a guided stroll, or drive the coast to Waimarama and Ocean Beach. Cap it with a sundowner above the vines at Te Mata Peak.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cape Kidnappers Gannet Safari</div><a class="cg-link" href="https://geni.us/GannetsNapier" target="_blank" rel="noopener">geni.us/GannetsNapier</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hawke&#x27;s Bay Food &amp; Wine Tour</div><a class="cg-link" href="https://geni.us/NapierWineTour" target="_blank" rel="noopener">geni.us/NapierWineTour</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cape Kidnappers Coastal Walk – 4–5 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Te Mata Peak Summit – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Waimarama Beach Walk – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Ahuriri Estuary Loop – 1–2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>The Thirsty Whale</div><div class="cg-item-sub">62 West Quay, Ahuriri<br><a href="https://www.thethirstywhale.co.nz" target="_blank" rel="noopener">www.thethirstywhale.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Peak House</div><div class="cg-item-sub">Te Mata Peak, Havelock North</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Cape Kidnappers Gannets</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Te Mata Peak Sunset</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Ocean Beach</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Ahuriri Waterfront Dining</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+<div class="region-divider"><span class="region-pill">🇳🇿 New Zealand – South Island</span></div>
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 11 · Thu 25 Mar 2027 <span class="card-nights">🌙 3 nights</span></div>
+        <div class="card-location">Napier → Nelson (via Wellington)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge fly">✈ Fly</span><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      <div class="card-arrival">Drop rental car at Napier Airport · fly to Nelson via Wellington · collect South Island rental car</div>
+      <div class="card-intro">Cross Cook Strait by air today, swapping the North Island for the sun-soaked top of the South. After returning your car at Napier Airport, fly via Wellington to Nelson – New Zealand&#x27;s sunshine capital and the gateway to golden-sand Abel Tasman National Park. Three nights of beaches, art, vineyards and coastal walks await.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Napier Airport (NPE)</strong> – Return your North Island car here before flying</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Rental Car Drop-off – Napier Airport – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">✈️</span>Flight – Napier → Wellington → Nelson – Air New Zealand / Sounds Air</div><a class="cg-link" href="https://geni.us/SoundsAir" target="_blank" rel="noopener">geni.us/SoundsAir</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Rental Car Pick-up – Nelson Airport – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Abel Tasman Sail &amp; Walk Day Trip</div><a class="cg-link" href="https://geni.us/AbelTasmanSailWalk" target="_blank" rel="noopener">geni.us/AbelTasmanSailWalk</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Abel Tasman Sea Shuttle – Cruise &amp; Walk</div><a class="cg-link" href="https://geni.us/AbelTasmanWalkCruise" target="_blank" rel="noopener">geni.us/AbelTasmanWalkCruise</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Abel Tasman Kayaking – Two Gods</div><a class="cg-link" href="https://geni.us/KayakTwoGods" target="_blank" rel="noopener">geni.us/KayakTwoGods</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>R&amp;R Kayaks – Abel Tasman</div><a class="cg-link" href="https://geni.us/RRKayaks" target="_blank" rel="noopener">geni.us/RRKayaks</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Great Taste Trail Cycle – Nelson to Mapua</div><a class="cg-link" href="https://geni.us/GreatTasteNelsonMapua" target="_blank" rel="noopener">geni.us/GreatTasteNelsonMapua</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Farewell Spit Eco Tour</div><a class="cg-link" href="https://geni.us/FarewellSpit" target="_blank" rel="noopener">geni.us/FarewellSpit</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cable Bay Adventure Park</div><a class="cg-link" href="https://geni.us/CableBayAdventures" target="_blank" rel="noopener">geni.us/CableBayAdventures</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Tasman Village Cottage</span><br><a class="cg-link" href="https://geni.us/TasmanCottage" target="_blank" rel="noopener">geni.us/TasmanCottage</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Kina Beach Cottages</span><br><a class="cg-link" href="https://geni.us/KinaBeachCottages" target="_blank" rel="noopener">geni.us/KinaBeachCottages</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Pihopa Lodge</span><br><a class="cg-link" href="https://geni.us/PihopaNelson" target="_blank" rel="noopener">geni.us/PihopaNelson</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/NelsonTasmanHotels" target="_blank" rel="noopener">geni.us/NelsonTasmanHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Abel Tasman Coast Track (Marahau → Anchorage) – 3–4 hrs one way</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Wharariki Beach Walk – 1 hr return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Te Waikoropupu (Pupu) Springs – 30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cleopatra&#x27;s Pool Walk – 1 hr return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hopgood&#x27;s Restaurant</div><div class="cg-item-sub">21 Selwyn Pl, Nelson<br><a href="https://www.hopgoods.co.nz" target="_blank" rel="noopener">www.hopgoods.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Arden</div><div class="cg-item-sub">24 Bridge St, Nelson<br><a href="https://www.arden.nz" target="_blank" rel="noopener">www.arden.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Urban Oyster Bar &amp; Eatery</div><div class="cg-item-sub">278 Hardy St, Nelson<br><a href="https://www.urbaneatery.co.nz" target="_blank" rel="noopener">www.urbaneatery.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Abel Tasman Coast Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Abel Tasman Kayaking</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Golden Bay Beaches</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Te Waikoropupu Springs</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mapua Wharf</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Drop car at Napier Airport · flight NPE → WLG → NSN · pick up car at Nelson Airport &nbsp;|&nbsp; <em>Stops: Napier Airport (NPE)</em></div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 12 · Fri 26 Mar 2027 </div>
+        <div class="card-location">Nelson – Abel Tasman National Park</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day in Abel Tasman National Park – a coastline of golden sand, granite headlands and turquoise water. Cruise in and walk a section of the famous Coast Track, or kayak the sheltered bays in search of seals and little blue penguins. The most beautiful of New Zealand&#x27;s Great Walks, sampled in a day.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Abel Tasman Sea Shuttle – Cruise &amp; Walk</div><a class="cg-link" href="https://geni.us/AbelTasmanWalkCruise" target="_blank" rel="noopener">geni.us/AbelTasmanWalkCruise</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Abel Tasman Kayaking – Two Gods</div><a class="cg-link" href="https://geni.us/KayakTwoGods" target="_blank" rel="noopener">geni.us/KayakTwoGods</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>R&amp;R Kayaks</div><a class="cg-link" href="https://geni.us/RRKayaks" target="_blank" rel="noopener">geni.us/RRKayaks</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Abel Tasman Sail &amp; Walk</div><a class="cg-link" href="https://geni.us/AbelTasmanSailWalk" target="_blank" rel="noopener">geni.us/AbelTasmanSailWalk</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Coast Track (Marahau → Anchorage) – 3–4 hrs one way</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Te Pukatea Bay Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cleopatra&#x27;s Pool Walk – 1 hr return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Wainui Falls Track – 1.5 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hopgood&#x27;s Restaurant</div><div class="cg-item-sub">21 Selwyn Pl, Nelson<br><a href="https://www.hopgoods.co.nz" target="_blank" rel="noopener">www.hopgoods.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Urban Oyster Bar &amp; Eatery</div><div class="cg-item-sub">278 Hardy St, Nelson<br><a href="https://www.urbaneatery.co.nz" target="_blank" rel="noopener">www.urbaneatery.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Abel Tasman Coast Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Abel Tasman Kayaking</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Kahurangi National Park</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Split Apple Rock</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 13 · Sat 27 Mar 2027 </div>
+        <div class="card-location">Nelson – Art, Wine &amp; Coast</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Spend today soaking up Nelson itself – the Saturday Market, riverside galleries and the craft-beer and cellar-door scene of the Moutere and Waimea plains. Cycle a stretch of the Great Taste Trail out to Mapua Wharf for lunch by the estuary, or head to Golden Bay over spectacular Takaka Hill.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Great Taste Trail Cycle – Nelson to Mapua</div><a class="cg-link" href="https://geni.us/GreatTasteNelsonMapua" target="_blank" rel="noopener">geni.us/GreatTasteNelsonMapua</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Farewell Spit Eco Tour</div><a class="cg-link" href="https://geni.us/FarewellSpit" target="_blank" rel="noopener">geni.us/FarewellSpit</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Golden Bay Scenic Flights</div><a class="cg-link" href="https://geni.us/GoldenBayFlights" target="_blank" rel="noopener">geni.us/GoldenBayFlights</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Cable Bay Adventure Park</div><a class="cg-link" href="https://geni.us/CableBayAdventures" target="_blank" rel="noopener">geni.us/CableBayAdventures</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Pupu Springs Walk – 30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Takaka Hill Lookout Walks – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Centre of NZ Walk (Nelson) – 1–1.5 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mapua Estuary Stroll – 1 hr</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Arden</div><div class="cg-item-sub">24 Bridge St, Nelson<br><a href="https://www.arden.nz" target="_blank" rel="noopener">www.arden.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hopgood&#x27;s Restaurant</div><div class="cg-item-sub">21 Selwyn Pl, Nelson<br><a href="https://www.hopgoods.co.nz" target="_blank" rel="noopener">www.hopgoods.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Nelson Saturday Market</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mapua Wharf</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Founders Heritage Park</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Nelson Art Galleries</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Farewell Spit</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 14 · Sun 28 Mar 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Nelson → Blenheim / Marlborough</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A short, scenic hop brings you to Blenheim – the beating heart of Marlborough, New Zealand&#x27;s largest and most famous wine region. You&#x27;re here in harvest, when the Sauvignon Blanc vines are heavy and the whole valley smells of fruit. Two nights to taste, cycle the vineyards, and discover the WWI aviation treasures at the Omaka Heritage Centre.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Pelorus Bridge</strong> – Emerald swimming holes &amp; a short rainforest loop – a Hobbit film location</li><li><strong>Havelock</strong> – ‘Green-lipped mussel capital’ – a classic lunch stop</li><li><strong>Queen Charlotte Drive</strong> – Optional scenic detour along the Marlborough Sounds</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Marlborough Half-Day Wine Tour</div><a class="cg-link" href="https://geni.us/BlenheimWineTourHalf" target="_blank" rel="noopener">geni.us/BlenheimWineTourHalf</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Omaka Aviation Heritage Centre</div><a class="cg-link" href="https://geni.us/Omaka" target="_blank" rel="noopener">geni.us/Omaka</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Laurella Cottage (Marlborough)</span><br><a class="cg-link" href="https://geni.us/LaurellaCottage" target="_blank" rel="noopener">geni.us/LaurellaCottage</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Punga Cove Resort (Marlborough Sounds)</span><br><a class="cg-link" href="https://geni.us/PungaCoveResort" target="_blank" rel="noopener">geni.us/PungaCoveResort</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Wither Hills Farm Park Loop – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Pelorus Bridge Loop – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Queen Charlotte Track (section) – 2–4 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Rarangi Coastal Walk – 2–3 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Arbour</div><div class="cg-item-sub">36 Godfrey Rd, Renwick<br><a href="https://www.arbour.co.nz" target="_blank" rel="noopener">www.arbour.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hans Herzog Estate</div><div class="cg-item-sub">81 Jeffries Rd, Blenheim<br><a href="https://www.herzog.co.nz" target="_blank" rel="noopener">www.herzog.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Marlborough Wineries</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Omaka Aviation Heritage Centre</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Wither Hills Farm Park</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Marlborough Sounds</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Nelson → Blenheim via the Whangamoa &amp; Rai Valley &nbsp;|&nbsp; <em>Stops: Pelorus Bridge · Havelock · Queen Charlotte Drive</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Nelson&amp;destination=Blenheim&amp;waypoints=Pelorus+Bridge|Havelock&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 15 · Mon 29 Mar 2027 </div>
+        <div class="card-location">Marlborough – Wine &amp; Sounds</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day in wine country. Over 30 cellar doors sit within a short cycle of Renwick – hire a bike and pedal between tastings, or join a guided tour and leave the driving to someone else. Prefer the water? The Marlborough Sounds and a Queen Charlotte cruise are a short drive north. End with a long lunch among the vines.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Marlborough Half-Day Wine Tour</div><a class="cg-link" href="https://geni.us/BlenheimWineTourHalf" target="_blank" rel="noopener">geni.us/BlenheimWineTourHalf</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Omaka Aviation Heritage Centre</div><a class="cg-link" href="https://geni.us/Omaka" target="_blank" rel="noopener">geni.us/Omaka</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Wither Hills Farm Park Loop – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Snout Track (Picton) – 2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Queen Charlotte Track (Ship Cove section) – 3–4 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tirohanga Track (Picton) – 2 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hans Herzog Estate</div><div class="cg-item-sub">81 Jeffries Rd, Blenheim<br><a href="https://www.herzog.co.nz" target="_blank" rel="noopener">www.herzog.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Arbour</div><div class="cg-item-sub">36 Godfrey Rd, Renwick<br><a href="https://www.arbour.co.nz" target="_blank" rel="noopener">www.arbour.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Renwick Cellar Doors</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Queen Charlotte Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Marlborough Sounds Cruise</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Wairau Lagoons</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 16 · Tue 30 Mar 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Blenheim → Greymouth / Punakaiki Coast</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Cross from the sunny east to the wild West Coast today, climbing through Nelson Lakes National Park and following gold-rush valleys down to the Tasman Sea. Your base is the rugged Greymouth–Punakaiki coast, home to the famous Pancake Rocks and blowholes. Two nights on New Zealand&#x27;s most untamed, beautiful shoreline.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>St Arnaud / Lake Rotoiti</strong> – Mirror-clear alpine lake in Nelson Lakes National Park</li><li><strong>Murchison</strong> – Riverside town – a good coffee or lunch break</li><li><strong>Reefton</strong> – Historic gold &amp; coal town, the first place in NZ with electric light</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Pancake Rocks &amp; Blowholes (Punakaiki)</div><a class="cg-link" href="https://geni.us/PunakaikiHotels" target="_blank" rel="noopener">geni.us/PunakaikiHotels</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Underworld Rafting – Charleston Caves</div><a class="cg-link" href="https://geni.us/CharlestonCaves" target="_blank" rel="noopener">geni.us/CharlestonCaves</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>TranzAlpine Train Journey (scenic option)</div><a class="cg-link" href="https://geni.us/TranzAlpine" target="_blank" rel="noopener">geni.us/TranzAlpine</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Punakaiki Beachfront Motel</span><br><a class="cg-link" href="https://geni.us/PunaBeachMotel" target="_blank" rel="noopener">geni.us/PunaBeachMotel</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Breakers Boutique B&amp;B</span><br><a class="cg-link" href="https://geni.us/BreakersWC" target="_blank" rel="noopener">geni.us/BreakersWC</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Breakers Boutique B&amp;B – Sea View</span><br><a class="cg-link" href="https://geni.us/BreakersWC" target="_blank" rel="noopener">geni.us/BreakersWC</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/PunakaikiHotels" target="_blank" rel="noopener">geni.us/PunakaikiHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Punakaiki Pancake Rocks Walk – 20–30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Truman Track – 30 min return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Pororari River Track – 2–3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cape Foulwind Walkway – 2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Rotoiti Lakeshore Track (St Arnaud) – 2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Jimmy Cook&#x27;s Restaurant</div><div class="cg-item-sub">32 Mawhera Quay, Greymouth<br><a href="https://www.jimmycooks.co.nz/greymouth" target="_blank" rel="noopener">www.jimmycooks.co.nz/greymouth</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Punakaiki Tavern</div><div class="cg-item-sub">Owen St, Punakaiki</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Pancake Rocks Café</div><div class="cg-item-sub">4300 Coast Rd, Punakaiki</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Pancake Rocks &amp; Blowholes</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Pororari River Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Punakaiki Coastline</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Cape Foulwind Seal Colony</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Paparoa National Park</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Blenheim → Greymouth via St Arnaud (Nelson Lakes). A longer scenic day – start early. &nbsp;|&nbsp; <em>Stops: St Arnaud / Lake Rotoiti · Murchison · Reefton</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Blenheim&amp;destination=Greymouth&amp;waypoints=St+Arnaud|Murchison|Reefton&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 17 · Wed 31 Mar 2027 </div>
+        <div class="card-location">Punakaiki &amp; Westport</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day on the wild coast. Time the Pancake Rocks for high tide when the blowholes erupt, walk the subtropical Pororari River gorge, and head north to Cape Foulwind&#x27;s seal colony and the historic Denniston coal plateau. Raw, dramatic and uncrowded – the West Coast at its finest.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Underworld Rafting – Charleston Caves</div><a class="cg-link" href="https://geni.us/CharlestonCaves" target="_blank" rel="noopener">geni.us/CharlestonCaves</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Oparara Arches Guided Tour (Karamea)</div><a class="cg-link" href="https://geni.us/OpararaCaveTours" target="_blank" rel="noopener">geni.us/OpararaCaveTours</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Pancake Rocks Walk (high tide) – 20–30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Pororari River Track – 2–3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Truman Track – 30 min return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Cape Foulwind Walkway – 2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Denniston Plateau Historic Walk – 1–2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Pancake Rocks Café</div><div class="cg-item-sub">4300 Coast Rd, Punakaiki</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Jimmy Cook&#x27;s Restaurant</div><div class="cg-item-sub">32 Mawhera Quay, Greymouth<br><a href="https://www.jimmycooks.co.nz/greymouth" target="_blank" rel="noopener">www.jimmycooks.co.nz/greymouth</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Pancake Rocks Blowholes</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Tauranga Bay Seal Colony</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Denniston Incline</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Charleston Caves</div><div class="cg-item-sub">Adventure</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 18 · Thu 1 Apr 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Greymouth → Franz Josef (via Hokitika)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Follow the coast south into glacier country. Pause in Hokitika – the greenstone town – with its luminous turquoise gorge and West Coast craft, then continue to Franz Josef, where ancient rainforest meets a river of ice descending almost to sea level. Two nights to walk, fly and explore one of the world&#x27;s most accessible glaciers.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Hokitika Gorge</strong> – 15-min detour to vivid turquoise glacial water &amp; swing bridge</li><li><strong>Hokitika town</strong> – Greenstone (pounamu) carving &amp; the driftwood beach sign</li><li><strong>West Coast Treetop Walk</strong> – Elevated rainforest canopy walkway</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Franz Josef Glacier Guided Walk</div><a class="cg-link" href="https://geni.us/FranzGlacierWalk" target="_blank" rel="noopener">geni.us/FranzGlacierWalk</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Franz Josef Heli-Hike</div><a class="cg-link" href="https://geni.us/FranzHeliHiking" target="_blank" rel="noopener">geni.us/FranzHeliHiking</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Franz Josef Wilderness Tours</div><a class="cg-link" href="https://geni.us/FranzWildernessTours" target="_blank" rel="noopener">geni.us/FranzWildernessTours</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Glacier Hot Pools</div><a class="cg-link" href="https://geni.us/FranzHotPools" target="_blank" rel="noopener">geni.us/FranzHotPools</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>West Coast Wildlife Centre / Kiwi House</div><a class="cg-link" href="https://geni.us/KiwiHouseFranz" target="_blank" rel="noopener">geni.us/KiwiHouseFranz</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Okarito Kayaking</div><a class="cg-link" href="https://geni.us/OkaritoKayaks" target="_blank" rel="noopener">geni.us/OkaritoKayaks</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hokitika Treetop Walk</div><a class="cg-link" href="https://geni.us/TreeTopWalk" target="_blank" rel="noopener">geni.us/TreeTopWalk</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Rainforest Retreat</span><br><a class="cg-link" href="https://geni.us/RainforestFranz" target="_blank" rel="noopener">geni.us/RainforestFranz</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Te Waonui Forest Retreat</span><br><a class="cg-link" href="https://geni.us/TeWaonuiFranz" target="_blank" rel="noopener">geni.us/TeWaonuiFranz</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Te Waonui Forest Retreat</span><br><a class="cg-link" href="https://geni.us/TeWaonuiFranz" target="_blank" rel="noopener">geni.us/TeWaonuiFranz</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/FranzJosefHotels" target="_blank" rel="noopener">geni.us/FranzJosefHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Franz Josef Glacier Valley Walk – 1–1.5 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Matheson Walk – 1.5 hrs loop</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Minnehaha Walk – 30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tatare Tunnels Walk – 2–3 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Alice May Restaurant</div><div class="cg-item-sub">Cnr Cron &amp; Cowan St<br><a href="https://www.alicemay.co.nz" target="_blank" rel="noopener">www.alicemay.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>The Landing Bar &amp; Restaurant</div><div class="cg-item-sub">Franz Josef Village<br><a href="https://www.thelandingbar.co.nz" target="_blank" rel="noopener">www.thelandingbar.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>King Tiger</div><div class="cg-item-sub">Cron St, Franz Josef<br><a href="https://www.kingtiger.co.nz" target="_blank" rel="noopener">www.kingtiger.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Franz Josef Glacier</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Matheson Mirror Reflections</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Helicopter Glacier Landing</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>West Coast Rainforest</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Okarito Lagoon</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Greymouth → Franz Josef via Hokitika &nbsp;|&nbsp; <em>Stops: Hokitika Gorge · Hokitika town · West Coast Treetop Walk</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Greymouth&amp;destination=Franz+Josef&amp;waypoints=Hokitika&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 19 · Fri 2 Apr 2027 </div>
+        <div class="card-location">Franz Josef – Glacier Country</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day in glacier country. The showstopper is a helicopter flight onto the ice for a guided heli-hike – unforgettable. Prefer to stay grounded? Walk the glacier valley to the terminal face, mirror-gaze at Lake Matheson, or spot the rare white heron and kiwi at Okarito. The wildest, most primeval corner of the trip.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Franz Josef Heli-Hike</div><a class="cg-link" href="https://geni.us/FranzHeliHiking" target="_blank" rel="noopener">geni.us/FranzHeliHiking</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Fox &amp; Franz Twin Glacier Helicopter Flight</div><a class="cg-link" href="https://geni.us/FoxFranzTwinHelicopter" target="_blank" rel="noopener">geni.us/FoxFranzTwinHelicopter</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Franz Josef Glacier Guided Walk</div><a class="cg-link" href="https://geni.us/FranzGlacierWalk" target="_blank" rel="noopener">geni.us/FranzGlacierWalk</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Okarito Kiwi Tours</div><a class="cg-link" href="https://geni.us/OkaritoKiwiTours" target="_blank" rel="noopener">geni.us/OkaritoKiwiTours</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>White Heron Sanctuary Tour (Whataroa)</div><a class="cg-link" href="https://geni.us/WhiteHeronTour" target="_blank" rel="noopener">geni.us/WhiteHeronTour</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Matheson Walk – 1.5 hrs loop</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Alex Knob Track (lower section) – 3–4 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Glacier Valley Walk – 1–1.5 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Callery Gorge Walk – 2 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Alice May Restaurant</div><div class="cg-item-sub">Cnr Cron &amp; Cowan St<br><a href="https://www.alicemay.co.nz" target="_blank" rel="noopener">www.alicemay.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Blue Ice</div><div class="cg-item-sub">Main St, Franz Josef<br><a href="https://www.blueicefranzjosef.com" target="_blank" rel="noopener">www.blueicefranzjosef.com</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Heli-Hike on the Glacier</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Matheson</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Okarito Lagoon Kayaking</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>White Heron Colony</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 20 · Sat 3 Apr 2027 <span class="card-nights">🌙 3 nights</span></div>
+        <div class="card-location">Franz Josef → Wanaka / Cromwell (via Haast Pass)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">One of the great drives of the world. Trace the wild coast south, then turn inland over the Haast Pass – past the Blue Pools and tumbling waterfalls – emerging into the golden, mountain-ringed lakes of Central Otago. You&#x27;ve arrived in peak autumn-colour country: Wanaka, Cromwell and the Cardrona Valley blaze gold and amber in early April. Three nights of walks, wine and lakeside calm.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Knights Point Lookout</strong> – Dramatic West Coast clifftop viewpoint</li><li><strong>Blue Pools, Makarora</strong> – Short walk to glacier-fed turquoise pools</li><li><strong>Haast Pass waterfalls</strong> – Thunder Creek &amp; Fantail Falls, roadside stops</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🛶</span>Waiatoto River Safari (Haast, optional stop) – Jetboat</div><a class="cg-link" href="https://geni.us/WaiatotoJet" target="_blank" rel="noopener">geni.us/WaiatotoJet</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Water Taxi – Mou Waho Island Cruise</div><a class="cg-link" href="https://geni.us/WanakaMouWaho" target="_blank" rel="noopener">geni.us/WanakaMouWaho</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Wine Tour (Central Otago)</div><a class="cg-link" href="https://geni.us/WanakaWineTour" target="_blank" rel="noopener">geni.us/WanakaWineTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka River Journeys Safari</div><a class="cg-link" href="https://geni.us/WanakaRiverSafari" target="_blank" rel="noopener">geni.us/WanakaRiverSafari</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Lake Dunstan Cycle Trail (Cromwell)</div><a class="cg-link" href="https://geni.us/DunstanBiking" target="_blank" rel="noopener">geni.us/DunstanBiking</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Hot Air Ballooning</div><a class="cg-link" href="https://geni.us/WanakaBallooning" target="_blank" rel="noopener">geni.us/WanakaBallooning</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Puzzling World</div><a class="cg-link" href="https://geni.us/WanakaPuzzle" target="_blank" rel="noopener">geni.us/WanakaPuzzle</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Te Wanaka Lodge</span><br><a class="cg-link" href="https://geni.us/TeWanakaBB" target="_blank" rel="noopener">geni.us/TeWanakaBB</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Edgewater Resort, Wanaka</span><br><a class="cg-link" href="https://geni.us/EdgewaterWanaka" target="_blank" rel="noopener">geni.us/EdgewaterWanaka</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Mt. Michael Lodge (Cromwell / Central Otago)</span><br><a class="cg-link" href="https://geni.us/MtMichaelLodge" target="_blank" rel="noopener">geni.us/MtMichaelLodge</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/WanakaHotels" target="_blank" rel="noopener">geni.us/WanakaHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mount Iron Track – 1.5–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Diamond Lake &amp; Rocky Mountain – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Blue Pools Walk (Makarora) – 30 min return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Rob Roy Glacier Track – 3–4 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Roys Peak Track (challenging) – 5–6 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Federal Diner</div><div class="cg-item-sub">47 Helwick St, Wanaka</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Kika</div><div class="cg-item-sub">Wanaka central</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hans Herzog / Central Otago cellar doors</div><div class="cg-item-sub">Bannockburn &amp; Lowburn</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Central Otago Autumn Colour</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Roys Peak Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mou Waho Island Cruise</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Rippon Vineyard</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mount Aspiring National Park</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Franz Josef → Wanaka via Haast Pass. A long, spectacular day – start early and savour the stops. &nbsp;|&nbsp; <em>Stops: Knights Point Lookout · Blue Pools, Makarora · Haast Pass waterfalls</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Franz+Josef&amp;destination=Wanaka&amp;waypoints=Haast|Makarora&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 21 · Sun 4 Apr 2027 </div>
+        <div class="card-location">Wanaka &amp; Central Otago</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day in golden Central Otago – New Zealand&#x27;s premier Pinot Noir country, at its most beautiful under autumn light. Sample cellar doors around Bannockburn and Cromwell, cycle a stretch of the Lake Dunstan Trail past the old gold-mining ruins, or hike above the lake for those iconic Wanaka views. Wine, fruit, sunshine and big skies.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Wine Tour – Central Otago Cellar Doors</div><a class="cg-link" href="https://geni.us/WanakaWineTour" target="_blank" rel="noopener">geni.us/WanakaWineTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Lake Dunstan Cycle Trail (Cromwell)</div><a class="cg-link" href="https://geni.us/DunstanBiking" target="_blank" rel="noopener">geni.us/DunstanBiking</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Water Taxi – Mou Waho</div><a class="cg-link" href="https://geni.us/WanakaMouWaho" target="_blank" rel="noopener">geni.us/WanakaMouWaho</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Pack Rafting</div><a class="cg-link" href="https://geni.us/WanakaPackRafting" target="_blank" rel="noopener">geni.us/WanakaPackRafting</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mount Iron Track – 1.5–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Wanaka Lakefront Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Diamond Lake Track – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Rob Roy Glacier Track – 3–4 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Federal Diner</div><div class="cg-item-sub">47 Helwick St, Wanaka</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Kika</div><div class="cg-item-sub">Wanaka central</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Bannockburn Cellar Doors</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Wanaka Lakefront</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>That Wanaka Tree</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Dunstan Trail</div><div class="cg-item-sub">Adventure</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 22 · Mon 5 Apr 2027 </div>
+        <div class="card-location">Wanaka – Lakes &amp; Autumn Gold</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Your final Central Otago day – perfect for the things you&#x27;ve been saving. Cruise to Mou Waho&#x27;s hidden island-within-a-lake, drive the Crown Range to historic Arrowtown (ablaze with autumn colour in early April), or simply linger lakeside with a book and a Central Otago Pinot. Unhurried and golden.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Water Taxi – Mou Waho Island</div><a class="cg-link" href="https://geni.us/WanakaMouWaho" target="_blank" rel="noopener">geni.us/WanakaMouWaho</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka River Journeys Safari</div><a class="cg-link" href="https://geni.us/WanakaRiverSafari" target="_blank" rel="noopener">geni.us/WanakaRiverSafari</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Wanaka Hot Air Ballooning</div><a class="cg-link" href="https://geni.us/WanakaBallooning" target="_blank" rel="noopener">geni.us/WanakaBallooning</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Puzzling World</div><a class="cg-link" href="https://geni.us/WanakaPuzzle" target="_blank" rel="noopener">geni.us/WanakaPuzzle</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Roys Peak Track (challenging) – 5–6 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Arrowtown River Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Diamond Lake &amp; Rocky Mountain – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Glendhu Bay Track – 2–3 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Federal Diner</div><div class="cg-item-sub">47 Helwick St, Wanaka</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Kika</div><div class="cg-item-sub">Wanaka central</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Arrowtown Autumn Festival</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mou Waho Island</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Crown Range Drive</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Cardrona Valley</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 23 · Tue 6 Apr 2027 <span class="card-nights">🌙 3 nights</span></div>
+        <div class="card-location">Wanaka → Te Anau (via Queenstown)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Travel south via adventure-capital Queenstown – pause for lunch on the lakefront and a ride up the gondola – then on to tranquil Te Anau on the edge of Fiordland National Park. This is your gateway to Milford and Doubtful Sounds, two of the planet&#x27;s most spectacular wilderness fiords. Three nights to cruise, walk and breathe the wild.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Crown Range &amp; Cardrona</strong> – NZ&#x27;s highest sealed road – lookout &amp; historic Cardrona Hotel</li><li><strong>Queenstown</strong> – Lunch stop – lakefront, gondola, or Arrowtown nearby</li><li><strong>Te Anau Downs</strong> – First glimpse of Fiordland&#x27;s lake-and-mountain wilderness</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Trips &amp; Tramps – Milford Sound Cruise &amp; Walk</div><a class="cg-link" href="https://geni.us/TripsTrampsMilford" target="_blank" rel="noopener">geni.us/TripsTrampsMilford</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Te Anau Glowworm Caves Tour</div><a class="cg-link" href="https://geni.us/TeAnauCaves" target="_blank" rel="noopener">geni.us/TeAnauCaves</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Routeburn / Key Summit Guided Walk</div><a class="cg-link" href="https://geni.us/RouteburnKeyWalk" target="_blank" rel="noopener">geni.us/RouteburnKeyWalk</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>RealNZ Doubtful Sound Wilderness Cruise</div><a class="cg-link" href="https://geni.us/DoubtfulDayTour" target="_blank" rel="noopener">geni.us/DoubtfulDayTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Fiordland Helicopters Scenic Flight</div><a class="cg-link" href="https://geni.us/FiordlandHelicopters" target="_blank" rel="noopener">geni.us/FiordlandHelicopters</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Queenstown Skyline Gondola (en route)</div><a class="cg-link" href="https://geni.us/QTBiking" target="_blank" rel="noopener">geni.us/QTBiking</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Annies on Milford</span><br><a class="cg-link" href="https://geni.us/AnniesTeAnau" target="_blank" rel="noopener">geni.us/AnniesTeAnau</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Dusky Ridges</span><br><a class="cg-link" href="https://geni.us/DuskyRidges" target="_blank" rel="noopener">geni.us/DuskyRidges</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Fiordland Lodge</span><br><a class="cg-link" href="https://geni.us/FiordlandLodge" target="_blank" rel="noopener">geni.us/FiordlandLodge</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/TeAnauHotels" target="_blank" rel="noopener">geni.us/TeAnauHotels</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Kepler Track – Lakefront Section – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Key Summit Track – 3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mirror Lakes Walk – 20 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Gunn Nature Walk – 45 min</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Redcliff Café</div><div class="cg-item-sub">12 Mokonui St, Te Anau<br><a href="https://www.redcliff.co.nz" target="_blank" rel="noopener">www.redcliff.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Sandfly Café</div><div class="cg-item-sub">9 The Lane, Te Anau</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Rata (Queenstown, en route)</div><div class="cg-item-sub">43 Ballarat St, Queenstown<br><a href="https://www.ratadining.co.nz" target="_blank" rel="noopener">www.ratadining.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Milford Sound Cruise</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Kepler Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mirror Lakes</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Te Anau Glowworm Caves</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Doubtful Sound</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Wanaka → Te Anau via Queenstown &amp; the Crown Range &nbsp;|&nbsp; <em>Stops: Crown Range &amp; Cardrona · Queenstown · Te Anau Downs</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Wanaka&amp;destination=Te+Anau&amp;waypoints=Queenstown&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 24 · Wed 7 Apr 2027 </div>
+        <div class="card-location">Fiordland – Milford Sound</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">The crown jewel of New Zealand. The drive to Milford is half the magic – mirror lakes, alpine valleys and the dramatic Homer Tunnel – before you board a cruise beneath sheer 1,200m cliffs and thundering waterfalls. Autumn often brings still, reflective mornings. A small-group cruise-and-walk gets you closer than the big boats.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Trips &amp; Tramps – Milford Cruise &amp; Walk</div><a class="cg-link" href="https://geni.us/TripsTrampsMilford" target="_blank" rel="noopener">geni.us/TripsTrampsMilford</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>T&amp;T Milford Track Guided Day Walk &amp; Cruise</div><a class="cg-link" href="https://geni.us/TripsTrampsMilfordWalk" target="_blank" rel="noopener">geni.us/TripsTrampsMilfordWalk</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Fiordland Helicopters Scenic Flight</div><a class="cg-link" href="https://geni.us/FiordlandHelicopters" target="_blank" rel="noopener">geni.us/FiordlandHelicopters</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Milford Sound Overnight Cruise</div><a class="cg-link" href="https://geni.us/MilfordOvernighter" target="_blank" rel="noopener">geni.us/MilfordOvernighter</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>The Chasm Walk – 20 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Marian Track – 3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Humboldt Falls Track – 30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Key Summit Track – 3 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Redcliff Café</div><div class="cg-item-sub">12 Mokonui St, Te Anau<br><a href="https://www.redcliff.co.nz" target="_blank" rel="noopener">www.redcliff.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Sandfly Café</div><div class="cg-item-sub">9 The Lane, Te Anau</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Milford Sound Cruise</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Milford Sound Kayaking</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Homer Tunnel &amp; Cleddau Valley</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mitre Peak</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 25 · Thu 8 Apr 2027 </div>
+        <div class="card-location">Fiordland – Doubtful Sound &amp; Kepler</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A second Fiordland day for the deeper wilderness. Doubtful Sound – vast, silent and far less visited than Milford – is reached by boat across Lake Manapouri and over the Wilmot Pass. Or lace up for a day section of the Kepler Track, one of NZ&#x27;s Great Walks, with sweeping lake-and-mountain views. End with the Te Anau glowworm caves after dark.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>RealNZ Doubtful Sound Wilderness Day Cruise</div><a class="cg-link" href="https://geni.us/DoubtfulDayTour" target="_blank" rel="noopener">geni.us/DoubtfulDayTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>RealNZ Doubtful Sound Overnight Cruise</div><a class="cg-link" href="https://geni.us/DoubtfulOvernight" target="_blank" rel="noopener">geni.us/DoubtfulOvernight</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Te Anau Glowworm Caves Tour</div><a class="cg-link" href="https://geni.us/TeAnauCaves" target="_blank" rel="noopener">geni.us/TeAnauCaves</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Fiordland Jet</div><a class="cg-link" href="https://geni.us/FiordlandJet" target="_blank" rel="noopener">geni.us/FiordlandJet</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Routeburn / Key Summit Guided Walk</div><a class="cg-link" href="https://geni.us/RouteburnKeyWalk" target="_blank" rel="noopener">geni.us/RouteburnKeyWalk</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Kepler Track (Brod Bay section) – 3–4 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Marian Track – 3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Lake Howden Walk – 1 hr</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Te Anau Lakefront Walk – 1–2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Redcliff Café</div><div class="cg-item-sub">12 Mokonui St, Te Anau<br><a href="https://www.redcliff.co.nz" target="_blank" rel="noopener">www.redcliff.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Sandfly Café</div><div class="cg-item-sub">9 The Lane, Te Anau</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Doubtful Sound</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Kepler Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Te Anau Glowworm Caves</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Manapouri</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 26 · Fri 9 Apr 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Te Anau → Dunedin (Southern Scenic Route)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A long but glorious drive along the Southern Scenic Route, hugging the wild Catlins coast where waterfalls, sea caves and penguins line the way. You finish in Dunedin – New Zealand&#x27;s Edinburgh of the South – with its grand Victorian architecture and a peninsula teeming with rare wildlife. Two nights to explore heritage, wildlife and a buzzing little food scene.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Catlins – Nugget Point</strong> – Iconic lighthouse &amp; rocky islets full of wildlife</li><li><strong>Cathedral Caves / Purakaunui Falls</strong> – Sea caves &amp; a postcard three-tier waterfall</li><li><strong>Curio Bay</strong> – Petrified forest &amp; rare Hector&#x27;s dolphins / yellow-eyed penguins</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Otago Peninsula Wildlife Tour (albatross &amp; penguins)</div><a class="cg-link" href="https://geni.us/DunedinWildlife" target="_blank" rel="noopener">geni.us/DunedinWildlife</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Larnach Castle &amp; City Highlights Tour</div><a class="cg-link" href="https://geni.us/DunedinCityLarnach" target="_blank" rel="noopener">geni.us/DunedinCityLarnach</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Speight&#x27;s Brewery Heritage Tour</div><a class="cg-link" href="https://geni.us/SpeightsBrewery" target="_blank" rel="noopener">geni.us/SpeightsBrewery</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Dunedin Artisan Food Tour</div><a class="cg-link" href="https://geni.us/ArtisanDunedin" target="_blank" rel="noopener">geni.us/ArtisanDunedin</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Olveston Historic House Tour</div><a class="cg-link" href="https://geni.us/OlvestonHouse" target="_blank" rel="noopener">geni.us/OlvestonHouse</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Dunedin Palms Motel</span><br><a class="cg-link" href="https://geni.us/DunedinPalmMotel" target="_blank" rel="noopener">geni.us/DunedinPalmMotel</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Distinction Dunedin Hotel</span><br><a class="cg-link" href="https://geni.us/DistinctionDunedin" target="_blank" rel="noopener">geni.us/DistinctionDunedin</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Camp Estate, Larnach Castle</span><br><a class="cg-link" href="https://geni.us/CampEstateDunedin" target="_blank" rel="noopener">geni.us/CampEstateDunedin</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/DunedinPalmMotel" target="_blank" rel="noopener">geni.us/DunedinPalmMotel</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Nugget Point Walk (Catlins) – 30 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Purakaunui Falls Track – 20 min</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tunnel Beach Walk – 1 hr return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Sandymount Track (Otago Peninsula) – 2–3 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>No.7 Balmac</div><div class="cg-item-sub">7 Balmacewen Rd<br><a href="https://www.no7balmac.co.nz" target="_blank" rel="noopener">www.no7balmac.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Moiety</div><div class="cg-item-sub">42 Queens Gardens</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Titi</div><div class="cg-item-sub">24 Esplanade, St Clair</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Catlins Coast &amp; Nugget Point</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Otago Peninsula Wildlife</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Larnach Castle</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Dunedin Railway Station</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Tunnel Beach</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Te Anau → Dunedin via the Southern Scenic Route &amp; Catlins. The longest drive day – start early; the direct route via Gore (~3.5 hrs) is the quicker alternative. &nbsp;|&nbsp; <em>Stops: Catlins – Nugget Point · Cathedral Caves / Purakaunui Falls · Curio Bay</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Te+Anau&amp;destination=Dunedin&amp;waypoints=Nugget+Point|Curio+Bay&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 27 · Sat 10 Apr 2027 </div>
+        <div class="card-location">Dunedin &amp; Otago Peninsula</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Dedicate today to the Otago Peninsula – one of the finest mainland wildlife habitats on earth. Watch royal albatross soar at Taiaroa Head, spot rare yellow-eyed penguins and fur seals, then return to the city for heritage, craft beer and great coffee. Don&#x27;t miss a photo on Baldwin Street, the world&#x27;s steepest.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Otago Peninsula Wildlife Tour</div><a class="cg-link" href="https://geni.us/DunedinWildlife" target="_blank" rel="noopener">geni.us/DunedinWildlife</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Larnach Castle &amp; Gardens</div><a class="cg-link" href="https://geni.us/DunedinCityLarnach" target="_blank" rel="noopener">geni.us/DunedinCityLarnach</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Speight&#x27;s Brewery Tour</div><a class="cg-link" href="https://geni.us/SpeightsBrewery" target="_blank" rel="noopener">geni.us/SpeightsBrewery</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Private Dunedin Day Tour</div><a class="cg-link" href="https://geni.us/PrivateDunedin" target="_blank" rel="noopener">geni.us/PrivateDunedin</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Sandymount &amp; Lovers Leap – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tunnel Beach Walk – 1 hr return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Harbour Cone Walk – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Aramoana Coastal Walk – 1–2 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Moiety</div><div class="cg-item-sub">42 Queens Gardens</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Titi</div><div class="cg-item-sub">24 Esplanade, St Clair</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Royal Albatross Centre</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Yellow-Eyed Penguins</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Larnach Castle</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Baldwin Street</div><div class="cg-item-sub">Scenic</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 28 · Sun 11 Apr 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Dunedin → Aoraki / Mount Cook (via Oamaru)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Head inland to the Mackenzie Country and Aoraki/Mount Cook – New Zealand&#x27;s highest peak and the heart of an International Dark Sky Reserve. Break the drive at the Moeraki Boulders and Victorian Oamaru, then follow the unreal turquoise of Lake Pukaki to the mountains. Two nights for alpine walks by day and some of the clearest star-filled skies on earth by night.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Moeraki Boulders</strong> – Spherical boulders scattered along the beach – a quick coastal stop</li><li><strong>Oamaru</strong> – Victorian precinct &amp; little blue penguin colony</li><li><strong>Lake Pukaki</strong> – Electric-turquoise glacial lake with Aoraki towering beyond</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Aoraki Heli-Hiking</div><a class="cg-link" href="https://geni.us/HeliHikeMtCook" target="_blank" rel="noopener">geni.us/HeliHikeMtCook</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mt Cook Helicopter Flight with Snow Landing</div><a class="cg-link" href="https://geni.us/MtCookHeliFlight" target="_blank" rel="noopener">geni.us/MtCookHeliFlight</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mt John Stargazing Experience (Tekapo)</div><a class="cg-link" href="https://geni.us/StargazingMtJohn" target="_blank" rel="noopener">geni.us/StargazingMtJohn</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Dark Sky Project (Tekapo)</div><a class="cg-link" href="https://geni.us/DarkSkyProject" target="_blank" rel="noopener">geni.us/DarkSkyProject</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mt Cook / Pukaki Observatory Stargazing</div><a class="cg-link" href="https://geni.us/PukakiObservatory" target="_blank" rel="noopener">geni.us/PukakiObservatory</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Oamaru Blue Penguin Colony</div><a class="cg-link" href="https://geni.us/BluePenguinsOamaru" target="_blank" rel="noopener">geni.us/BluePenguinsOamaru</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Mantra Lake Tekapo</span><br><a class="cg-link" href="https://geni.us/MantraTekapo" target="_blank" rel="noopener">geni.us/MantraTekapo</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Lakestone Lodge, Lake Pukaki</span><br><a class="cg-link" href="https://geni.us/LakeStoneLodgePukaki" target="_blank" rel="noopener">geni.us/LakeStoneLodgePukaki</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">Mt Cook Lakeview Retreat</span><br><a class="cg-link" href="https://geni.us/MtCookRetreat" target="_blank" rel="noopener">geni.us/MtCookRetreat</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/MackenzieGrib" target="_blank" rel="noopener">geni.us/MackenzieGrib</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Hooker Valley Track – 3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Kea Point Track – 2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Tasman Glacier View Track – 30 min return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Mount John Summit (Tekapo) – 2 hrs return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Old Mountaineers&#x27; Café</div><div class="cg-item-sub">Mt Cook Village</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Kohan (Lake Tekapo)</div><div class="cg-item-sub">6 Rapuwai Lane, Tekapo</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Hooker Valley / Hermitage dining</div><div class="cg-item-sub">Aoraki Mt Cook</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Aoraki / Mount Cook</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hooker Valley Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Lake Pukaki</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mackenzie Dark Sky Stargazing</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Tasman Glacier</div><div class="cg-item-sub">Nature</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Dunedin → Mt Cook / Mackenzie via Oamaru &nbsp;|&nbsp; <em>Stops: Moeraki Boulders · Oamaru · Lake Pukaki</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Dunedin&amp;destination=Aoraki+Mount+Cook&amp;waypoints=Oamaru|Lake+Pukaki&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 29 · Mon 12 Apr 2027 </div>
+        <div class="card-location">Aoraki / Mount Cook National Park</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">A full day in the high alpine. Walk the iconic Hooker Valley Track – three swing bridges leading to a glacier-fed lake beneath Aoraki itself – or take a ski-plane or helicopter onto the Tasman Glacier. As darkness falls, the Mackenzie&#x27;s Dark Sky Reserve delivers a star show few places on earth can match.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Aoraki Heli-Hiking</div><a class="cg-link" href="https://geni.us/HeliHikeMtCook" target="_blank" rel="noopener">geni.us/HeliHikeMtCook</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mt Cook Helicopter Flight with Snow Landing</div><a class="cg-link" href="https://geni.us/MtCookHeliFlight" target="_blank" rel="noopener">geni.us/MtCookHeliFlight</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mt John Stargazing (Tekapo)</div><a class="cg-link" href="https://geni.us/StargazingMtJohn" target="_blank" rel="noopener">geni.us/StargazingMtJohn</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Mt Cook Stargazing</div><a class="cg-link" href="https://geni.us/MtCookStargazing" target="_blank" rel="noopener">geni.us/MtCookStargazing</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Tekapo Scenic Flight</div><a class="cg-link" href="https://geni.us/TekapoScenicFlight" target="_blank" rel="noopener">geni.us/TekapoScenicFlight</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Hooker Valley Track – 3 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Kea Point Track – 2 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Sealy Tarns Track (‘stairway to heaven’) – 3–4 hrs return</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Blue Lakes &amp; Tasman Glacier – 1 hr return</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Old Mountaineers&#x27; Café</div><div class="cg-item-sub">Mt Cook Village</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Kohan (Lake Tekapo)</div><div class="cg-item-sub">6 Rapuwai Lane, Tekapo</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hooker Valley Track</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Tasman Glacier Heli-Landing</div><div class="cg-item-sub">Adventure</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Mt John Observatory</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Church of the Good Shepherd, Tekapo</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 30 · Tue 13 Apr 2027 <span class="card-nights">🌙 2 nights</span></div>
+        <div class="card-location">Mount Cook → Christchurch (Inland Scenic Route)</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge drive">🚗 Drive</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Your final cross-country drive crosses the Canterbury high country and braided rivers to Christchurch – the Garden City. Reinvented since the earthquakes, it blends heritage trams and punted rivers with bold street art and a brilliant food scene. Two nights to explore the city, the Banks Peninsula and Akaroa before your journey home.</div>
+      <div class="drive-sights"><div class="ds-title">Scenic stops along the way</div><ul><li><strong>Lake Tekapo &amp; Church of the Good Shepherd</strong> – Turquoise lake &amp; NZ&#x27;s most photographed chapel</li><li><strong>Burkes Pass &amp; Fairlie</strong> – Country-town pie stop – a Mackenzie institution</li><li><strong>Rakaia Gorge</strong> – Braided-river canyon on the inland approach to the plains</li></ul></div>
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Self-drive – continue in your rental car – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div></div><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Christchurch Tram City Tour</div><a class="cg-link" href="https://geni.us/ChchTram" target="_blank" rel="noopener">geni.us/ChchTram</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Gondola, Tram &amp; Punting Combo</div><a class="cg-link" href="https://geni.us/ChchGondolaTramPunt" target="_blank" rel="noopener">geni.us/ChchGondolaTramPunt</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Quake City Museum</div><a class="cg-link" href="https://geni.us/ChChQuakeCity" target="_blank" rel="noopener">geni.us/ChChQuakeCity</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Akaroa Day Tour &amp; Harbour Cruise</div><a class="cg-link" href="https://geni.us/ChchAkaroaDayTour" target="_blank" rel="noopener">geni.us/ChchAkaroaDayTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Akaroa Wildlife / Hector&#x27;s Dolphin Cruise</div><a class="cg-link" href="https://geni.us/AkaroaWildlifeCruise" target="_blank" rel="noopener">geni.us/AkaroaWildlifeCruise</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Willowbank Wildlife Reserve</div><a class="cg-link" href="https://geni.us/WillowbankChch" target="_blank" rel="noopener">geni.us/WillowbankChch</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>International Antarctic Centre</div><a class="cg-link" href="https://geni.us/AntarcticCentre" target="_blank" rel="noopener">geni.us/AntarcticCentre</a></div></div><div class="cg-block"><div class="cg-title nz">Accommodation</div><div class="accom-item"><span class="accom-star">3⭐</span><span class="accom-name">Orari B&amp;B</span><br><a class="cg-link" href="https://geni.us/OrariChCh" target="_blank" rel="noopener">geni.us/OrariChCh</a></div><div class="accom-item"><span class="accom-star">4⭐</span><span class="accom-name">Hotel Montreal</span><br><a class="cg-link" href="https://geni.us/HotelMontrealChch" target="_blank" rel="noopener">geni.us/HotelMontrealChch</a></div><div class="accom-item"><span class="accom-star">5⭐</span><span class="accom-name">The George Hotel</span><br><a class="cg-link" href="https://geni.us/TheGeorgeChCh" target="_blank" rel="noopener">geni.us/TheGeorgeChCh</a></div><div class="accom-item all"><span class="accom-name">All area hotels</span><br><a class="cg-link" href="https://geni.us/WestFitzroyChch" target="_blank" rel="noopener">geni.us/WestFitzroyChch</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Christchurch Botanic Gardens &amp; Avon Loop – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Godley Head Coastal Walk – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Castle Hill Kura Tawhiti Walk – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Sumner to Taylors Mistake Walkway – 2–3 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Inati</div><div class="cg-item-sub">48 Hereford St<br><a href="https://www.inati.nz" target="_blank" rel="noopener">www.inati.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>King of Snake</div><div class="cg-item-sub">145 Victoria St<br><a href="https://www.kingofsnake.co.nz" target="_blank" rel="noopener">www.kingofsnake.co.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>27 Steps</div><div class="cg-item-sub">16 New Regent St</div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Christchurch Tram &amp; New Regent St</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Punting on the Avon</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Christchurch Botanic Gardens</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Banks Peninsula &amp; Akaroa</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Quake City / Cardboard Cathedral</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive Mt Cook → Christchurch via the Inland Scenic Route (SH8 / SH72) &nbsp;|&nbsp; <em>Stops: Lake Tekapo &amp; Church of the Good Shepherd · Burkes Pass &amp; Fairlie · Rakaia Gorge</em></div><a class="map-btn" href="https://www.google.com/maps/dir/?api=1&amp;origin=Aoraki+Mount+Cook&amp;destination=Christchurch&amp;waypoints=Lake+Tekapo|Geraldine&amp;travelmode=driving" target="_blank" rel="noopener">🗺 Open in Google Maps</a></div>
+  </div>
+</div>
+
+<div class="day-card">
+  <div class="card-accent nz"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 31 · Wed 14 Apr 2027 </div>
+        <div class="card-location">Christchurch &amp; Banks Peninsula</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge walk">🚶 Explore</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      
+      <div class="card-intro">Your last full day. Ride the heritage tram and punt the Avon in the city, or drive out to French-flavoured Akaroa on Banks Peninsula for a harbour cruise among the world&#x27;s smallest dolphins. The Botanic Gardens, the street art and the Re:START laneways make a relaxed, reflective close to a remarkable month.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Tours &amp; Activities</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Akaroa Day Tour &amp; Harbour Cruise</div><a class="cg-link" href="https://geni.us/ChchAkaroaDayTour" target="_blank" rel="noopener">geni.us/ChchAkaroaDayTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Akaroa Hector&#x27;s Dolphin Swim</div><a class="cg-link" href="https://geni.us/AkaroaDolphinSwim" target="_blank" rel="noopener">geni.us/AkaroaDolphinSwim</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Christchurch Gondola &amp; Tram</div><a class="cg-link" href="https://geni.us/ChchGondolaTram" target="_blank" rel="noopener">geni.us/ChchGondolaTram</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>TranzAlpine Day Tour (Arthur&#x27;s Pass)</div><a class="cg-link" href="https://geni.us/TranzAlpDayTour" target="_blank" rel="noopener">geni.us/TranzAlpDayTour</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🏞</span>Hot Air Balloon over Canterbury</div><a class="cg-link" href="https://geni.us/ChchHotAirBalloon" target="_blank" rel="noopener">geni.us/ChchHotAirBalloon</a></div></div><div class="cg-block"><div class="cg-title nz">Walks Nearby</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Botanic Gardens &amp; Avon Loop – 1–2 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Akaroa Skyline Walk – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Godley Head Coastal Walk – 2–3 hrs</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚶</span>Sign of the Takahe to Victoria Park – 2–3 hrs</div></div></div><div class="cg-block"><div class="cg-title nz">Food &amp; Drink</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>Inati</div><div class="cg-item-sub">48 Hereford St<br><a href="https://www.inati.nz" target="_blank" rel="noopener">www.inati.nz</a></div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>5th Street</div><div class="cg-item-sub">5 Elgin St, Sydenham</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🍽</span>King of Snake</div><div class="cg-item-sub">145 Victoria St<br><a href="https://www.kingofsnake.co.nz" target="_blank" rel="noopener">www.kingofsnake.co.nz</a></div></div></div><div class="cg-block"><div class="cg-title nz">Local Highlights</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Akaroa &amp; Banks Peninsula</div><div class="cg-item-sub">Scenic</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Hector&#x27;s Dolphin Cruise</div><div class="cg-item-sub">Nature</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>New Regent Street</div><div class="cg-item-sub">Culture</div></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🌟</span>Christchurch Street Art</div><div class="cg-item-sub">Culture</div></div></div></div>
+    </div>
+    <div class="card-footer"><div class="no-drive">No long driving today – relax and explore at your own pace.</div></div>
+  </div>
+</div>
+<div class="region-divider"><span class="region-pill">🛫 Departure</span></div>
+<div class="day-card">
+  <div class="card-accent transit"></div>
+  <div class="card-body">
+    <div class="card-hdr">
+      <div class="card-hdr-left">
+        <div class="card-dayline">Day 32 · Thu 15 Apr 2027 </div>
+        <div class="card-location">Christchurch → Auckland → Home</div>
+      </div>
+      <div class="card-hdr-right"><span class="badge fly">✈ Depart</span><span class="badge flag-nz">🇳🇿 NZ</span></div>
+    </div>
+    <div class="card-inner">
+      <div class="card-arrival">Drop rental car at Christchurch Airport · fly Christchurch → Auckland · connect to international flight home</div>
+      <div class="card-intro">Your New Zealand journey comes to a close. Return your rental car at Christchurch Airport and fly to Auckland to connect with your international flight home, carrying a month of memories – glaciers and fiords, vineyards and gannets, golden coasts and star-filled alpine skies. Haere rā – until next time.</div>
+      
+      <div class="card-grid"><div class="cg-block"><div class="cg-title nz">Transport</div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">🚗</span>Rental Car Drop-off – Christchurch Airport – GO Rentals</div><a class="cg-link" href="https://geni.us/GORentals" target="_blank" rel="noopener">geni.us/GORentals</a></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">✈️</span>Domestic Flight – Christchurch → Auckland – Air New Zealand (book direct)</div><span class="cg-missing">⚠ link to confirm</span></div><div class="cg-item compact"><div class="cg-item-name"><span class="cg-item-icon">✈️</span>International Departure – Auckland (AKL) – Book direct with airline</div><span class="cg-missing">⚠ link to confirm</span></div></div></div>
+    </div>
+    <div class="card-footer"><div class="card-footer-route">🗺 Self-drive to Christchurch Airport (car drop) · flight CHC → AKL · international connection</div></div>
+  </div>
+</div>
+  </div>
+
+<div class="footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-col-title">Research &amp; Service Options</div>
+      <a href="https://geni.us/RentalCarOptions" target="_blank" rel="noopener">Great Rental Car Options</a>
+      <a href="https://geni.us/CamperOptions" target="_blank" rel="noopener">Camper &amp; Motorhomes</a>
+      <a href="https://geni.us/AucklandHotels" target="_blank" rel="noopener">Hotels, Motels &amp; Apartments</a>
+      <a href="https://geni.us/AirportTransfers" target="_blank" rel="noopener">Airport Transfers</a>
+      <a href="https://geni.us/AuckyWalky" target="_blank" rel="noopener">Tours &amp; Activities</a>
+      <a href="https://geni.us/InterislanderFerry" target="_blank" rel="noopener">Interislander Ferry</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Additional Helpful Travel Information</div>
+      <a href="https://www.xe.com/" target="_blank" rel="noopener">Exchange Rate Converter</a>
+      <a href="https://www.immigration.govt.nz/new-zealand-visas/apply-for-a-visa/about-visa/nzeta" target="_blank" rel="noopener">NZ Visa &amp; ETA Site</a>
+      <a href="https://www.travellerdeclaration.govt.nz/" target="_blank" rel="noopener">NZ Digital Arrival Card</a>
+      <a href="https://www.nzta.govt.nz/driver-licences/new-residents-and-visitors/driving-on-nz-roads/" target="_blank" rel="noopener">NZ Driving Licence Requirements</a>
+      <a href="https://geni.us/WiseCard" target="_blank" rel="noopener">Cost-effective Wise Credit Card</a>
+      <a href="https://www.journeys.nzta.govt.nz/highway-conditions" target="_blank" rel="noopener">NZ Road Closure Information</a>
+      <a href="https://www.metservice.com/" target="_blank" rel="noopener">NZ Weather Forecast</a>
+      <a href="https://geni.us/SailySim" target="_blank" rel="noopener">Mobile Data E-Sim Card</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">YouTube Playlists</div>
+      <a href="https://geni.us/NZTripSetup" target="_blank" rel="noopener">1 – Trip Planning</a>
+      <a href="https://geni.us/NZTravelPlans" target="_blank" rel="noopener">2 – Sample Itineraries</a>
+      <a href="https://geni.us/NZRoadTrips" target="_blank" rel="noopener">3 – Road Trips</a>
+      <a href="https://geni.us/NZVisitPlaces" target="_blank" rel="noopener">4 – Visit Places</a>
+      <a href="https://geni.us/NZMustDo" target="_blank" rel="noopener">5 – Things To Do</a>
+      <div class="footer-col-title" style="margin-top:20px;">More Travel Planning?</div>
+      <a href="https://www.youtube.com/@virtualjourneysnz" target="_blank" rel="noopener">▶ Virtual Journeys YouTube Channel</a>
+      <a href="https://geni.us/VJPlanning" target="_blank" rel="noopener">▶ Travel Planning Service</a>
+    </div>
+  </div>
+  <div class="footer-base">
+    <div class="footer-logo">VIRTUAL JOURNEYS</div>
+    <div class="footer-tag">Your New Zealand &amp; Australia Travel Specialists</div>
+    <div class="footer-fine">&copy; 2027 Virtual Journeys NZ · Personalised Self-Book Travel Itinerary · Prepared for Jonathan &amp; Vicky Bryant</div>
+  </div>
+</div>
+</div></body></html>
