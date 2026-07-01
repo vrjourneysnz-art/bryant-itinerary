@@ -1,204 +1,211 @@
 Date	Location	Service Category	Service Name	geni.us Link	Booked?	Supplier / Notes
-Mon 15 Mar	Auckland	✈️ Flight	Arrive Auckland International Airport – private transfer to inner-city hotel	No		Self-arranged
-Mon 15 Mar	Auckland	🚖 Airport Transfer	Airport → Auckland	https://geni.us/AirportTransfers		
-Mon 15 Mar	Auckland	✨ Special Activity	Fullers Waiheke Island Ferry	https://geni.us/FullersAuckland		
-Mon 15 Mar	Auckland	✨ Special Activity	Aucky Walky – Guided City Walking Tour	https://geni.us/AuckyWalky		
-Mon 15 Mar	Auckland	✨ Special Activity	Auckland Hop-on Hop-off Bus	https://geni.us/AucklandHopOnCoach		
-Mon 15 Mar	Auckland	✨ Special Activity	Auckland War Memorial Museum	https://geni.us/AucklandMuseum		
-Mon 15 Mar	Auckland	✨ Special Activity	Auckland Art Gallery Toi o Tāmaki	https://geni.us/AKLArtGallery		
-Mon 15 Mar	Auckland	✨ Special Activity	ExploreNZ Harbour Sailing	https://geni.us/ExploreNZSail		
-Mon 15 Mar	Auckland	✨ Special Activity	Auckland Whale & Dolphin Safari	https://geni.us/AucklandWhaleDolphin		
-Mon 15 Mar	Auckland	🏡 Accommodation (3★)	Adina Citylife Auckland	https://geni.us/AdinaAuckland		
-Mon 15 Mar	Auckland	🏡 Accommodation (4★)	Novotel Auckland Airport	https://geni.us/NovotelAKLAirport		
-Mon 15 Mar	Auckland	🏡 Accommodation (5★)	Park Hyatt Auckland	https://geni.us/ParkHyattAuckland		
-Tue 16 Mar	Auckland – Waiheke Island	✨ Special Activity	Fullers Waiheke Island Ferry	https://geni.us/FullersAuckland		
-Tue 16 Mar	Auckland – Waiheke Island	✨ Special Activity	Ananda Tours – Waiheke Wine & Art	https://geni.us/AnandaWaiheke		
-Tue 16 Mar	Auckland – Waiheke Island	✨ Special Activity	Bush & Beach West Coast Tour	https://geni.us/BushBeachAKL		
-Tue 16 Mar	Auckland – Waiheke Island	✨ Special Activity	ExploreNZ Harbour Sailing	https://geni.us/ExploreNZSail		
-Wed 17 Mar	Auckland → Hahei / Coromandel	🚗 Rental Car	Self-drive Auckland → Hahei via the Kawakawa Bay coastal road	https://geni.us/RentalCarOptions		
-Wed 17 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove & Coast Scenic Cruise	https://geni.us/CathedralCoast		
-Wed 17 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove Kayaking	https://geni.us/CathedralCoveKayak		
-Wed 17 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove Snorkel Tour	https://geni.us/CathedralSnorkel		
-Wed 17 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove Sailing	https://geni.us/SailCathedral		
-Wed 17 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Coromandel Zipline Tour	https://geni.us/CoromandelZipline		
-Wed 17 Mar	Auckland → Hahei / Coromandel	🏡 Accommodation (3★)	The Church Accommodation, Hahei	https://geni.us/TheChurchHahei		
-Wed 17 Mar	Auckland → Hahei / Coromandel	🏡 Accommodation (4★)	970 Lonely Bay Lodge	https://geni.us/970LonelyBay		
-Wed 17 Mar	Auckland → Hahei / Coromandel	🏡 Accommodation (5★)	Mercury Ridge Lodge	https://geni.us/MercuryRidgeLodge		
-Thu 18 Mar	Hahei / Coromandel	✨ Special Activity	Cathedral Cove Kayaking – Sea Cave Tour	https://geni.us/CathedralCoveKayak		
-Thu 18 Mar	Hahei / Coromandel	✨ Special Activity	Cathedral Cove Snorkel Tour	https://geni.us/CathedralSnorkel		
-Thu 18 Mar	Hahei / Coromandel	✨ Special Activity	Cathedral Cove & Coast Cruise	https://geni.us/CathedralCoast		
-Thu 18 Mar	Hahei / Coromandel	✨ Special Activity	Coromandel Zipline Tour	https://geni.us/CoromandelZipline		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	🚗 Rental Car	Self-drive Hahei → Taupō via Rotorua's geothermal valley	https://geni.us/RentalCarOptions		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Te Puia – Geothermal Valley & Guided Walk	https://geni.us/TePuiaTour		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Wai-O-Tapu Thermal Wonderland	https://geni.us/Waiotapu		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Hobbiton Movie Set Tour	https://geni.us/HobbitonTour		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Mitai Māori Village – Concert & Hangi	https://geni.us/MitaiHangi		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Waimangu Volcanic Valley	https://geni.us/WaimanguValley		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Redwoods Treewalk, Whakarewarewa	https://geni.us/RotoruaRedwoods		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Huka Falls Jet (Taupō)	https://geni.us/HukaFallsJet		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	🏡 Accommodation (3★)	Lake Motel Taupo	https://geni.us/LakeTaupoMotel		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	🏡 Accommodation (4★)	Acacia Bay Lodge	https://geni.us/AcaciaLodgeTaupo		
-Fri 19 Mar	Coromandel → Taupō (via Rotorua)	🏡 Accommodation (5★)	Huka Lodge	https://geni.us/HukaLodge		
-Sat 20 Mar	Lake Taupō	✨ Special Activity	Huka Falls Jet	https://geni.us/HukaFallsJet		
-Sat 20 Mar	Lake Taupō	✨ Special Activity	Orakei Korako Geothermal Park	https://geni.us/OrakeiKorako		
-Sat 20 Mar	Lake Taupō	✨ Special Activity	Lake Taupō Kayaking (rock carvings)	https://geni.us/TaupoKayak		
-Sat 20 Mar	Lake Taupō	✨ Special Activity	Taupō Skydive	https://geni.us/TaupoSkyDive		
-Sun 21 Mar	Tongariro National Park	✨ Special Activity	Guided Tongariro Alpine Crossing	https://geni.us/GuideTongariroCrossing		
-Sun 21 Mar	Tongariro National Park	✨ Special Activity	Orakei Korako Geothermal Park	https://geni.us/OrakeiKorako		
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	🚗 Rental Car	Self-drive Taupō → Napier via the Napier-Taupō road	https://geni.us/RentalCarOptions		
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	✨ Special Activity	Hawke's Bay Food & Wine Tour	https://geni.us/NapierWineTour		
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	✨ Special Activity	Cape Kidnappers Gannet Safari	https://geni.us/GannetsNapier		
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	✨ Special Activity	Hawke's Bay Cycling Wine Trail	https://geni.us/NapierCycling		
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (3★)	TBC	No		⚠ Link missing — add manually
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (4★)	Mangapapa Lodge (luxury country estate)	https://geni.us/MangapapaLodge		
-Mon 22 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (5★)	Mangapapa Lodge – Premium Suites	https://geni.us/MangapapaLodge		
-Tue 23 Mar	Hawke's Bay – Wine & Food	✨ Special Activity	Hawke's Bay Food & Wine Tour	https://geni.us/NapierWineTour		
-Tue 23 Mar	Hawke's Bay – Wine & Food	✨ Special Activity	Hawke's Bay Cycling Wine Trail	https://geni.us/NapierCycling		
-Wed 24 Mar	Hawke's Bay – Coast & Gannets	✨ Special Activity	Cape Kidnappers Gannet Safari	https://geni.us/GannetsNapier		
-Wed 24 Mar	Hawke's Bay – Coast & Gannets	✨ Special Activity	Hawke's Bay Food & Wine Tour	https://geni.us/NapierWineTour		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✈️ Flight	Drop rental car at Napier Airport · fly to Nelson via Wellington · collect South Island rental car	No		Self-arranged
-Thu 25 Mar	Napier → Nelson (via Wellington)	🚖 Airport Transfer	Airport → Napier → Nelson (via Wellington)	https://geni.us/AirportTransfers		
-Thu 25 Mar	Napier → Nelson (via Wellington)	🚗 Rental Car	Drop car at Napier Airport · flight NPE → WLG → NSN · pick up car at Nelson Airport	https://geni.us/RentalCarOptions		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Abel Tasman Sail & Walk Day Trip	https://geni.us/AbelTasmanSailWalk		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Abel Tasman Sea Shuttle – Cruise & Walk	https://geni.us/AbelTasmanWalkCruise		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Abel Tasman Kayaking – Two Gods	https://geni.us/KayakTwoGods		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	R&R Kayaks – Abel Tasman	https://geni.us/RRKayaks		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Great Taste Trail Cycle – Nelson to Mapua	https://geni.us/GreatTasteNelsonMapua		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Farewell Spit Eco Tour	https://geni.us/FarewellSpit		
-Thu 25 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Cable Bay Adventure Park	https://geni.us/CableBayAdventures		
-Thu 25 Mar	Napier → Nelson (via Wellington)	🏡 Accommodation (3★)	Tasman Village Cottage	https://geni.us/TasmanCottage		
-Thu 25 Mar	Napier → Nelson (via Wellington)	🏡 Accommodation (4★)	Kina Beach Cottages	https://geni.us/KinaBeachCottages		
-Thu 25 Mar	Napier → Nelson (via Wellington)	🏡 Accommodation (5★)	Pihopa Lodge	https://geni.us/PihopaNelson		
-Fri 26 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	Abel Tasman Sea Shuttle – Cruise & Walk	https://geni.us/AbelTasmanWalkCruise		
-Fri 26 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	Abel Tasman Kayaking – Two Gods	https://geni.us/KayakTwoGods		
-Fri 26 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	R&R Kayaks	https://geni.us/RRKayaks		
-Fri 26 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	Abel Tasman Sail & Walk	https://geni.us/AbelTasmanSailWalk		
-Sat 27 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Great Taste Trail Cycle – Nelson to Mapua	https://geni.us/GreatTasteNelsonMapua		
-Sat 27 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Farewell Spit Eco Tour	https://geni.us/FarewellSpit		
-Sat 27 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Golden Bay Scenic Flights	https://geni.us/GoldenBayFlights		
-Sat 27 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Cable Bay Adventure Park	https://geni.us/CableBayAdventures		
-Sun 28 Mar	Nelson → Blenheim / Marlborough	🚗 Rental Car	Self-drive Nelson → Blenheim via the Whangamoa & Rai Valley	https://geni.us/RentalCarOptions		
-Sun 28 Mar	Nelson → Blenheim / Marlborough	✨ Special Activity	Marlborough Half-Day Wine Tour	https://geni.us/BlenheimWineTourHalf		
-Sun 28 Mar	Nelson → Blenheim / Marlborough	✨ Special Activity	Omaka Aviation Heritage Centre	https://geni.us/Omaka		
-Sun 28 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (3★)	TBC	No		⚠ Link missing — add manually
-Sun 28 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (4★)	Laurella Cottage (Marlborough)	https://geni.us/LaurellaCottage		
-Sun 28 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (5★)	Punga Cove Resort (Marlborough Sounds)	https://geni.us/PungaCoveResort		
-Mon 29 Mar	Marlborough – Wine & Sounds	✨ Special Activity	Marlborough Half-Day Wine Tour	https://geni.us/BlenheimWineTourHalf		
-Mon 29 Mar	Marlborough – Wine & Sounds	✨ Special Activity	Omaka Aviation Heritage Centre	https://geni.us/Omaka		
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	🚗 Rental Car	Self-drive Blenheim → Greymouth via St Arnaud (Nelson Lakes). A longer scenic day – start early.	https://geni.us/RentalCarOptions		
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	✨ Special Activity	Pancake Rocks & Blowholes (Punakaiki)	https://geni.us/PunakaikiHotels		⚠ Link missing — add manually
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	✨ Special Activity	Underworld Rafting – Charleston Caves	https://geni.us/CharlestonCaves		
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	✨ Special Activity	TranzAlpine Train Journey (scenic option)	https://geni.us/TranzAlpine		
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	🏡 Accommodation (3★)	Punakaiki Beachfront Motel	https://geni.us/PunaBeachMotel		
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	🏡 Accommodation (4★)	Breakers Boutique B&B	https://geni.us/BreakersWC		
-Tue 30 Mar	Blenheim → Greymouth / Punakaiki Coast	🏡 Accommodation (5★)	Breakers Boutique B&B – Sea View	https://geni.us/BreakersWC		
-Wed 31 Mar	Punakaiki & Westport	✨ Special Activity	Underworld Rafting – Charleston Caves	https://geni.us/CharlestonCaves		
-Wed 31 Mar	Punakaiki & Westport	✨ Special Activity	Oparara Arches Guided Tour (Karamea)	https://geni.us/OpararaCaveTours		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	🚗 Rental Car	Self-drive Greymouth → Franz Josef via Hokitika	https://geni.us/RentalCarOptions		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Franz Josef Glacier Guided Walk	https://geni.us/FranzGlacierWalk		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Franz Josef Heli-Hike	https://geni.us/FranzHeliHiking		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Franz Josef Wilderness Tours	https://geni.us/FranzWildernessTours		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Glacier Hot Pools	https://geni.us/FranzHotPools		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	West Coast Wildlife Centre / Kiwi House	https://geni.us/KiwiHouseFranz		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Okarito Kayaking	https://geni.us/OkaritoKayaks		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Hokitika Treetop Walk	https://geni.us/TreeTopWalk		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (3★)	Rainforest Retreat	https://geni.us/RainforestFranz		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (4★)	Te Waonui Forest Retreat	https://geni.us/TeWaonuiFranz		
-Thu 1 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (5★)	Te Waonui Forest Retreat	https://geni.us/TeWaonuiFranz		
-Fri 2 Apr	Franz Josef – Glacier Country	✨ Special Activity	Franz Josef Heli-Hike	https://geni.us/FranzHeliHiking		
-Fri 2 Apr	Franz Josef – Glacier Country	✨ Special Activity	Fox & Franz Twin Glacier Helicopter Flight	https://geni.us/FoxFranzTwinHelicopter		
-Fri 2 Apr	Franz Josef – Glacier Country	✨ Special Activity	Franz Josef Glacier Guided Walk	https://geni.us/FranzGlacierWalk		
-Fri 2 Apr	Franz Josef – Glacier Country	✨ Special Activity	Okarito Kiwi Tours	https://geni.us/OkaritoKiwiTours		
-Fri 2 Apr	Franz Josef – Glacier Country	✨ Special Activity	White Heron Sanctuary Tour (Whataroa)	https://geni.us/WhiteHeronTour		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🚗 Rental Car	Self-drive Franz Josef → Wanaka via Haast Pass. A long, spectacular day – start early and savour the stops.	https://geni.us/RentalCarOptions		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka Water Taxi – Mou Waho Island Cruise	https://geni.us/WanakaMouWaho		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka Wine Tour (Central Otago)	https://geni.us/WanakaWineTour		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka River Journeys Safari	https://geni.us/WanakaRiverSafari		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Lake Dunstan Cycle Trail (Cromwell)	https://geni.us/DunstanBiking		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka Hot Air Ballooning	https://geni.us/WanakaBallooning		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Puzzling World	https://geni.us/WanakaPuzzle		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🏡 Accommodation (3★)	Te Wanaka Lodge	https://geni.us/TeWanakaBB		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🏡 Accommodation (4★)	Edgewater Resort, Wanaka	https://geni.us/EdgewaterWanaka		
-Sat 3 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🏡 Accommodation (5★)	Mt. Michael Lodge (Cromwell / Central Otago)	https://geni.us/MtMichaelLodge		
-Sun 4 Apr	Wanaka & Central Otago	✨ Special Activity	Wanaka Wine Tour – Central Otago Cellar Doors	https://geni.us/WanakaWineTour		
-Sun 4 Apr	Wanaka & Central Otago	✨ Special Activity	Lake Dunstan Cycle Trail (Cromwell)	https://geni.us/DunstanBiking		
-Sun 4 Apr	Wanaka & Central Otago	✨ Special Activity	Wanaka Water Taxi – Mou Waho	https://geni.us/WanakaMouWaho		
-Sun 4 Apr	Wanaka & Central Otago	✨ Special Activity	Wanaka Pack Rafting	https://geni.us/WanakaPackRafting		
-Mon 5 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Wanaka Water Taxi – Mou Waho Island	https://geni.us/WanakaMouWaho		
-Mon 5 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Wanaka River Journeys Safari	https://geni.us/WanakaRiverSafari		
-Mon 5 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Wanaka Hot Air Ballooning	https://geni.us/WanakaBallooning		
-Mon 5 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Puzzling World	https://geni.us/WanakaPuzzle		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	🚗 Rental Car	Self-drive Wanaka → Te Anau via Queenstown & the Crown Range	https://geni.us/RentalCarOptions		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Trips & Tramps – Milford Sound Cruise & Walk	https://geni.us/TripsTrampsMilford		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	RealNZ Doubtful Sound Wilderness Cruise	https://geni.us/DoubtfulDayTour		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Fiordland Helicopters Scenic Flight	https://geni.us/FiordlandHelicopters		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Queenstown Skyline Gondola (en route)	https://geni.us/QTBiking		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (3★)	Annies on Milford	https://geni.us/AnniesTeAnau		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (4★)	Dusky Ridges	https://geni.us/DuskyRidges		
-Tue 6 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (5★)	Fiordland Lodge	https://geni.us/FiordlandLodge		
-Wed 7 Apr	Fiordland – Milford Sound	✨ Special Activity	Trips & Tramps – Milford Cruise & Walk	https://geni.us/TripsTrampsMilford		
-Wed 7 Apr	Fiordland – Milford Sound	✨ Special Activity	T&T Milford Track Guided Day Walk & Cruise	https://geni.us/TripsTrampsMilfordWalk		
-Wed 7 Apr	Fiordland – Milford Sound	✨ Special Activity	Fiordland Helicopters Scenic Flight	https://geni.us/FiordlandHelicopters		
-Wed 7 Apr	Fiordland – Milford Sound	✨ Special Activity	Milford Sound Overnight Cruise	https://geni.us/MilfordOvernighter		
-Thu 8 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	RealNZ Doubtful Sound Wilderness Day Cruise	https://geni.us/DoubtfulDayTour		
-Thu 8 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	RealNZ Doubtful Sound Overnight Cruise	https://geni.us/DoubtfulOvernight		
-Thu 8 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
-Thu 8 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Fiordland Jet	https://geni.us/FiordlandJet		
-Thu 8 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	🚗 Rental Car	Self-drive Te Anau → Dunedin via the Southern Scenic Route & Catlins. The longest drive day – start early; the direct route via Gore (~3.5 hrs) is the quicker alternative.	https://geni.us/RentalCarOptions		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Otago Peninsula Wildlife Tour (albatross & penguins)	https://geni.us/DunedinWildlife		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Larnach Castle & City Highlights Tour	https://geni.us/DunedinCityLarnach		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Speight's Brewery Heritage Tour	https://geni.us/SpeightsBrewery		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Dunedin Artisan Food Tour	https://geni.us/ArtisanDunedin		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Olveston Historic House Tour	https://geni.us/OlvestonHouse		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	🏡 Accommodation (3★)	Dunedin Palms Motel	https://geni.us/DunedinPalmMotel		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	🏡 Accommodation (4★)	Distinction Dunedin Hotel	https://geni.us/DistinctionDunedin		
-Fri 9 Apr	Te Anau → Dunedin (Southern Scenic Route)	🏡 Accommodation (5★)	Camp Estate, Larnach Castle	https://geni.us/CampEstateDunedin		
-Sat 10 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Otago Peninsula Wildlife Tour	https://geni.us/DunedinWildlife		
-Sat 10 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Larnach Castle & Gardens	https://geni.us/DunedinCityLarnach		
-Sat 10 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Speight's Brewery Tour	https://geni.us/SpeightsBrewery		
-Sat 10 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Private Dunedin Day Tour	https://geni.us/PrivateDunedin		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🚗 Rental Car	Self-drive Dunedin → Mt Cook / Mackenzie via Oamaru	https://geni.us/RentalCarOptions		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Aoraki Heli-Hiking	https://geni.us/HeliHikeMtCook		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Mt Cook Helicopter Flight with Snow Landing	https://geni.us/MtCookHeliFlight		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Mt John Stargazing Experience (Tekapo)	https://geni.us/StargazingMtJohn		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Dark Sky Project (Tekapo)	https://geni.us/DarkSkyProject		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Mt Cook / Pukaki Observatory Stargazing	https://geni.us/PukakiObservatory		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Oamaru Blue Penguin Colony	https://geni.us/BluePenguinsOamaru		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (3★)	Mantra Lake Tekapo	https://geni.us/MantraTekapo		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (4★)	Lakestone Lodge, Lake Pukaki	https://geni.us/LakeStoneLodgePukaki		
-Sun 11 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (5★)	Mt Cook Lakeview Retreat	https://geni.us/MtCookRetreat		
-Mon 12 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Aoraki Heli-Hiking	https://geni.us/HeliHikeMtCook		
-Mon 12 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Mt Cook Helicopter Flight with Snow Landing	https://geni.us/MtCookHeliFlight		
-Mon 12 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Mt John Stargazing (Tekapo)	https://geni.us/StargazingMtJohn		
-Mon 12 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Mt Cook Stargazing	https://geni.us/MtCookStargazing		
-Mon 12 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Tekapo Scenic Flight	https://geni.us/TekapoScenicFlight		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🚗 Rental Car	Self-drive Mt Cook → Christchurch via the Inland Scenic Route (SH8 / SH72)	https://geni.us/RentalCarOptions		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Christchurch Tram City Tour	https://geni.us/ChchTram		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Gondola, Tram & Punting Combo	https://geni.us/ChchGondolaTramPunt		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Quake City Museum	https://geni.us/ChChQuakeCity		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Akaroa Day Tour & Harbour Cruise	https://geni.us/ChchAkaroaDayTour		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Akaroa Wildlife / Hector's Dolphin Cruise	https://geni.us/AkaroaWildlifeCruise		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Willowbank Wildlife Reserve	https://geni.us/WillowbankChch		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	International Antarctic Centre	https://geni.us/AntarcticCentre		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (3★)	Orari B&B	https://geni.us/OrariChCh		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (4★)	Hotel Montreal	https://geni.us/HotelMontrealChch		
-Tue 13 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (5★)	The George Hotel	https://geni.us/TheGeorgeChCh		
-Wed 14 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Akaroa Day Tour & Harbour Cruise	https://geni.us/ChchAkaroaDayTour		
-Wed 14 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Akaroa Hector's Dolphin Swim	https://geni.us/AkaroaDolphinSwim		
-Wed 14 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Christchurch Gondola & Tram	https://geni.us/ChchGondolaTram		
-Wed 14 Apr	Christchurch & Banks Peninsula	✨ Special Activity	TranzAlpine Day Tour (Arthur's Pass)	https://geni.us/TranzAlpDayTour		
-Wed 14 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Hot Air Balloon over Canterbury	https://geni.us/ChchHotAirBalloon		
-Thu 15 Apr	Christchurch → Auckland → Home	✈️ Flight	Drop rental car at Christchurch Airport · fly Christchurch → Auckland · connect to international flight home	No		Self-arranged
-Thu 15 Apr	Christchurch → Auckland → Home	🚖 Airport Transfer	Airport → Christchurch → Auckland → Home	https://geni.us/AirportTransfers		
-Thu 15 Apr	Christchurch → Auckland → Home	🚗 Rental Car	Self-drive to Christchurch Airport (car drop) · flight CHC → AKL · international connection	https://geni.us/RentalCarOptions		
-Thu 15 Apr	Christchurch → Auckland → Home	✈️ Flight	International Departure	No		Self-arranged
-Thu 15 Apr	Christchurch → Auckland → Home	🚖 Airport Transfer	Christchurch → Auckland → Home → Airport	https://geni.us/AirportTransfers		
-Thu 15 Apr	Christchurch → Auckland → Home	🎥 YouTube	NZ Trip Planning & Setup	https://geni.us/NZTripSetup		
-Thu 15 Apr	Christchurch → Auckland → Home	🎥 YouTube	Sample NZ Itineraries	https://geni.us/NZTravelPlans		
-Thu 15 Apr	Christchurch → Auckland → Home	🎥 YouTube	NZ Road Trips & Scenic Drives	https://geni.us/NZRoadTrips		
-Thu 15 Apr	Christchurch → Auckland → Home	🎥 YouTube	Visit Places in NZ	https://geni.us/NZVisitPlaces		
-Thu 15 Apr	Christchurch → Auckland → Home	🎥 YouTube	Best Things To Do in NZ	https://geni.us/NZMustDo		
-Thu 15 Apr	Christchurch → Auckland → Home	🎥 YouTube	Virtual Journeys YouTube	https://www.youtube.com/@virtualjourneysnz		
+Wed 17 Mar	Auckland	✈️ Flight	Arrive Auckland International Airport on Air New Zealand NZ00029 · 05:45am – private transfer to inner-city hotel	No		Self-arranged
+Wed 17 Mar	Auckland	🚖 Airport Transfer	Airport → Auckland	https://geni.us/AirportTransfers		
+Wed 17 Mar	Auckland	✨ Special Activity	Fullers Waiheke Island Ferry	https://geni.us/FullersAuckland		
+Wed 17 Mar	Auckland	✨ Special Activity	Aucky Walky – Guided City Walking Tour	https://geni.us/AuckyWalky		
+Wed 17 Mar	Auckland	✨ Special Activity	Auckland Hop-on Hop-off Bus	https://geni.us/AucklandHopOnCoach		
+Wed 17 Mar	Auckland	✨ Special Activity	Auckland War Memorial Museum	https://geni.us/AucklandMuseum		
+Wed 17 Mar	Auckland	✨ Special Activity	Auckland Art Gallery Toi o Tāmaki	https://geni.us/AKLArtGallery		
+Wed 17 Mar	Auckland	✨ Special Activity	ExploreNZ Harbour Sailing	https://geni.us/ExploreNZSail		
+Wed 17 Mar	Auckland	✨ Special Activity	Auckland Whale & Dolphin Safari	https://geni.us/AucklandWhaleDolphin		
+Wed 17 Mar	Auckland	🏡 Accommodation (3★)	Adina Citylife Auckland	https://geni.us/AdinaAuckland		
+Wed 17 Mar	Auckland	🏡 Accommodation (4★)	Novotel Auckland Airport	https://geni.us/NovotelAKLAirport		
+Wed 17 Mar	Auckland	🏡 Accommodation (5★)	Park Hyatt Auckland	https://geni.us/ParkHyattAuckland		
+Wed 17 Mar	Auckland	🏡 Accommodation (4★)	QT Auckland Hotel	https://geni.us/QTAucklandHotel		
+Thu 18 Mar	Auckland – Waiheke Island	✨ Special Activity	Fullers Waiheke Island Ferry	https://geni.us/FullersAuckland		
+Thu 18 Mar	Auckland – Waiheke Island	✨ Special Activity	Ananda Tours – Waiheke Wine & Art	https://geni.us/AnandaWaiheke		
+Thu 18 Mar	Auckland – Waiheke Island	✨ Special Activity	Bush & Beach West Coast Tour	https://geni.us/BushBeachAKL		
+Thu 18 Mar	Auckland – Waiheke Island	✨ Special Activity	ExploreNZ Harbour Sailing	https://geni.us/ExploreNZSail		
+Fri 19 Mar	Auckland → Hahei / Coromandel	🚗 Rental Car	Self-drive Auckland → Hahei via the Kawakawa Bay coastal road	https://geni.us/RentalCarOptions		
+Fri 19 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove & Coast Scenic Cruise	https://geni.us/CathedralCoast		
+Fri 19 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove Kayaking	https://geni.us/CathedralCoveKayak		
+Fri 19 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove Snorkel Tour	https://geni.us/CathedralSnorkel		
+Fri 19 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Cathedral Cove Sailing	https://geni.us/SailCathedral		
+Fri 19 Mar	Auckland → Hahei / Coromandel	✨ Special Activity	Coromandel Zipline Tour	https://geni.us/CoromandelZipline		
+Fri 19 Mar	Auckland → Hahei / Coromandel	🏡 Accommodation (3★)	The Church Accommodation, Hahei	https://geni.us/TheChurchHahei		
+Fri 19 Mar	Auckland → Hahei / Coromandel	🏡 Accommodation (4★)	970 Lonely Bay Lodge	https://geni.us/970LonelyBay		
+Fri 19 Mar	Auckland → Hahei / Coromandel	🏡 Accommodation (5★)	Mercury Ridge Lodge	https://geni.us/MercuryRidgeLodge		
+Sat 20 Mar	Hahei / Coromandel	✨ Special Activity	Cathedral Cove Kayaking – Sea Cave Tour	https://geni.us/CathedralCoveKayak		
+Sat 20 Mar	Hahei / Coromandel	✨ Special Activity	Cathedral Cove Snorkel Tour	https://geni.us/CathedralSnorkel		
+Sat 20 Mar	Hahei / Coromandel	✨ Special Activity	Cathedral Cove & Coast Cruise	https://geni.us/CathedralCoast		
+Sat 20 Mar	Hahei / Coromandel	✨ Special Activity	Coromandel Zipline Tour	https://geni.us/CoromandelZipline		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	🚗 Rental Car	Self-drive Hahei → Taupō via Rotorua's geothermal valley	https://geni.us/RentalCarOptions		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Te Puia – Geothermal Valley & Guided Walk	https://geni.us/TePuiaTour		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Wai-O-Tapu Thermal Wonderland	https://geni.us/Waiotapu		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Hobbiton Movie Set Tour	https://geni.us/HobbitonTour		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Mitai Māori Village – Concert & Hangi	https://geni.us/MitaiHangi		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Waimangu Volcanic Valley	https://geni.us/WaimanguValley		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Redwoods Treewalk, Whakarewarewa	https://geni.us/RotoruaRedwoods		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	✨ Special Activity	Huka Falls Jet (Taupō)	https://geni.us/HukaFallsJet		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	🏡 Accommodation (3★)	Lake Motel Taupo	https://geni.us/LakeTaupoMotel		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	🏡 Accommodation (4★)	Acacia Bay Lodge	https://geni.us/AcaciaLodgeTaupo		
+Sun 21 Mar	Coromandel → Taupō (via Rotorua)	🏡 Accommodation (5★)	Huka Lodge	https://geni.us/HukaLodge		
+Mon 22 Mar	Lake Taupō	✨ Special Activity	Huka Falls Jet	https://geni.us/HukaFallsJet		
+Mon 22 Mar	Lake Taupō	✨ Special Activity	Orakei Korako Geothermal Park	https://geni.us/OrakeiKorako		
+Mon 22 Mar	Lake Taupō	✨ Special Activity	Lake Taupō Kayaking (rock carvings)	https://geni.us/TaupoKayak		
+Mon 22 Mar	Lake Taupō	✨ Special Activity	Taupō Skydive	https://geni.us/TaupoSkyDive		
+Tue 23 Mar	Tongariro National Park	✨ Special Activity	Guided Tongariro Alpine Crossing	https://geni.us/GuideTongariroCrossing		
+Tue 23 Mar	Tongariro National Park	✨ Special Activity	Orakei Korako Geothermal Park	https://geni.us/OrakeiKorako		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	🚗 Rental Car	Self-drive Taupō → Napier via the Napier-Taupō road	https://geni.us/RentalCarOptions		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	✨ Special Activity	Hawke's Bay Food & Wine Tour	https://geni.us/NapierWineTour		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	✨ Special Activity	Cape Kidnappers Gannet Safari	https://geni.us/GannetsNapier		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	✨ Special Activity	Hawke's Bay Cycling Wine Trail	https://geni.us/NapierCycling		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (3★)	TBC	No		⚠ Link missing — add manually
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (4★)	Mangapapa Lodge (luxury country estate)	https://geni.us/MangapapaLodge		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (5★)	Mangapapa Lodge – Premium Suites	https://geni.us/MangapapaLodge		
+Wed 24 Mar	Taupō → Napier / Hawke's Bay	🏡 Accommodation (4★)	Art Deco Hotel, Napier	https://geni.us/ArtDecoNapier		
+Thu 25 Mar	Hawke's Bay – Wine & Food	✨ Special Activity	Hawke's Bay Food & Wine Tour	https://geni.us/NapierWineTour		
+Thu 25 Mar	Hawke's Bay – Wine & Food	✨ Special Activity	Hawke's Bay Cycling Wine Trail	https://geni.us/NapierCycling		
+Fri 26 Mar	Hawke's Bay – Coast & Gannets	✨ Special Activity	Cape Kidnappers Gannet Safari	https://geni.us/GannetsNapier		
+Fri 26 Mar	Hawke's Bay – Coast & Gannets	✨ Special Activity	Hawke's Bay Food & Wine Tour	https://geni.us/NapierWineTour		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✈️ Flight	Drop rental car at Napier Airport · fly to Nelson via Wellington · collect South Island rental car	No		Self-arranged
+Sat 27 Mar	Napier → Nelson (via Wellington)	🚖 Airport Transfer	Airport → Napier → Nelson (via Wellington)	https://geni.us/AirportTransfers		
+Sat 27 Mar	Napier → Nelson (via Wellington)	🚗 Rental Car	Drop car at Napier Airport · flight NPE → WLG → NSN · pick up car at Nelson Airport	https://geni.us/RentalCarOptions		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Abel Tasman Sail & Walk Day Trip	https://geni.us/AbelTasmanSailWalk		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Abel Tasman Sea Shuttle – Cruise & Walk	https://geni.us/AbelTasmanWalkCruise		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Abel Tasman Kayaking – Two Gods	https://geni.us/KayakTwoGods		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	R&R Kayaks – Abel Tasman	https://geni.us/RRKayaks		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Great Taste Trail Cycle – Nelson to Mapua	https://geni.us/GreatTasteNelsonMapua		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Farewell Spit Eco Tour	https://geni.us/FarewellSpit		
+Sat 27 Mar	Napier → Nelson (via Wellington)	✨ Special Activity	Cable Bay Adventure Park	https://geni.us/CableBayAdventures		
+Sat 27 Mar	Napier → Nelson (via Wellington)	🏡 Accommodation (3★)	Tasman Village Cottage	https://geni.us/TasmanCottage		
+Sat 27 Mar	Napier → Nelson (via Wellington)	🏡 Accommodation (4★)	Kina Beach Cottages	https://geni.us/KinaBeachCottages		
+Sat 27 Mar	Napier → Nelson (via Wellington)	🏡 Accommodation (5★)	Pihopa Lodge	https://geni.us/PihopaNelson		
+Sun 28 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	Abel Tasman Sea Shuttle – Cruise & Walk	https://geni.us/AbelTasmanWalkCruise		
+Sun 28 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	Abel Tasman Kayaking – Two Gods	https://geni.us/KayakTwoGods		
+Sun 28 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	R&R Kayaks	https://geni.us/RRKayaks		
+Sun 28 Mar	Nelson – Abel Tasman National Park	✨ Special Activity	Abel Tasman Sail & Walk	https://geni.us/AbelTasmanSailWalk		
+Mon 29 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Great Taste Trail Cycle – Nelson to Mapua	https://geni.us/GreatTasteNelsonMapua		
+Mon 29 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Farewell Spit Eco Tour	https://geni.us/FarewellSpit		
+Mon 29 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Golden Bay Scenic Flights	https://geni.us/GoldenBayFlights		
+Mon 29 Mar	Nelson – Art, Wine & Coast	✨ Special Activity	Cable Bay Adventure Park	https://geni.us/CableBayAdventures		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🚗 Rental Car	Self-drive Nelson → Blenheim via the Whangamoa & Rai Valley	https://geni.us/RentalCarOptions		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	✨ Special Activity	Marlborough Half-Day Wine Tour	https://geni.us/BlenheimWineTourHalf		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	✨ Special Activity	Omaka Aviation Heritage Centre	https://geni.us/Omaka		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (3★)	TBC	No		⚠ Link missing — add manually
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (4★)	Laurella Cottage (Marlborough)	https://geni.us/LaurellaCottage		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (5★)	Punga Cove Resort (Marlborough Sounds)	https://geni.us/PungaCoveResort		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (4★)	14th Lane Urban Hotel		No	⚠ Link to confirm
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (5★)	Marlborough Lodge		No	⚠ Link to confirm
+Wed 31 Mar	Marlborough – Wine & Sounds	✨ Special Activity	Marlborough Half-Day Wine Tour	https://geni.us/BlenheimWineTourHalf		
+Wed 31 Mar	Marlborough – Wine & Sounds	✨ Special Activity	Omaka Aviation Heritage Centre	https://geni.us/Omaka		
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	🚗 Rental Car	Self-drive Blenheim → Greymouth via St Arnaud (Nelson Lakes). A longer scenic day – start early.	https://geni.us/RentalCarOptions		
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	✨ Special Activity	Pancake Rocks & Blowholes (Punakaiki)	https://geni.us/PunakaikiHotels		⚠ Link missing — add manually
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	✨ Special Activity	Underworld Rafting – Charleston Caves	https://geni.us/CharlestonCaves		
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	✨ Special Activity	TranzAlpine Train Journey (scenic option)	https://geni.us/TranzAlpine		
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	🏡 Accommodation (3★)	Punakaiki Beachfront Motel	https://geni.us/PunaBeachMotel		
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	🏡 Accommodation (4★)	Breakers Boutique B&B	https://geni.us/BreakersWC		
+Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	🏡 Accommodation (5★)	Breakers Boutique B&B – Sea View	https://geni.us/BreakersWC		
+Fri 2 Apr	Punakaiki & Westport	✨ Special Activity	Underworld Rafting – Charleston Caves	https://geni.us/CharlestonCaves		
+Fri 2 Apr	Punakaiki & Westport	✨ Special Activity	Oparara Arches Guided Tour (Karamea)	https://geni.us/OpararaCaveTours		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	🚗 Rental Car	Self-drive Greymouth → Franz Josef via Hokitika	https://geni.us/RentalCarOptions		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Franz Josef Glacier Guided Walk	https://geni.us/FranzGlacierWalk		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Franz Josef Heli-Hike	https://geni.us/FranzHeliHiking		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Franz Josef Wilderness Tours	https://geni.us/FranzWildernessTours		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Glacier Hot Pools	https://geni.us/FranzHotPools		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	West Coast Wildlife Centre / Kiwi House	https://geni.us/KiwiHouseFranz		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Okarito Kayaking	https://geni.us/OkaritoKayaks		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	✨ Special Activity	Hokitika Treetop Walk	https://geni.us/TreeTopWalk		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (3★)	Rainforest Retreat	https://geni.us/RainforestFranz		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (4★)	Te Wa Whakatā Ōkārito	https://geni.us/TewaOkarito		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (4★)	Te Waonui Forest Retreat	https://geni.us/TeWaonuiFranz		
+Sat 3 Apr	Greymouth → Franz Josef (via Hokitika)	🏡 Accommodation (5★)	Te Waonui Forest Retreat	https://geni.us/TeWaonuiFranz		
+Sun 4 Apr	Franz Josef – Glacier Country	✨ Special Activity	Franz Josef Heli-Hike	https://geni.us/FranzHeliHiking		
+Sun 4 Apr	Franz Josef – Glacier Country	✨ Special Activity	Fox & Franz Twin Glacier Helicopter Flight	https://geni.us/FoxFranzTwinHelicopter		
+Sun 4 Apr	Franz Josef – Glacier Country	✨ Special Activity	Franz Josef Glacier Guided Walk	https://geni.us/FranzGlacierWalk		
+Sun 4 Apr	Franz Josef – Glacier Country	✨ Special Activity	Okarito Kiwi Tours	https://geni.us/OkaritoKiwiTours		
+Sun 4 Apr	Franz Josef – Glacier Country	✨ Special Activity	White Heron Sanctuary Tour (Whataroa)	https://geni.us/WhiteHeronTour		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🚗 Rental Car	Self-drive Franz Josef → Wanaka via Haast Pass. A long, spectacular day – start early and savour the stops.	https://geni.us/RentalCarOptions		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka Water Taxi – Mou Waho Island Cruise	https://geni.us/WanakaMouWaho		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka Wine Tour (Central Otago)	https://geni.us/WanakaWineTour		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka River Journeys Safari	https://geni.us/WanakaRiverSafari		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Lake Dunstan Cycle Trail (Cromwell)	https://geni.us/DunstanBiking		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Wanaka Hot Air Ballooning	https://geni.us/WanakaBallooning		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	✨ Special Activity	Puzzling World	https://geni.us/WanakaPuzzle		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🏡 Accommodation (3★)	Te Wanaka Lodge	https://geni.us/TeWanakaBB		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🏡 Accommodation (4★)	Edgewater Resort, Wanaka	https://geni.us/EdgewaterWanaka		
+Mon 5 Apr	Franz Josef → Wanaka / Cromwell (via Haast Pass)	🏡 Accommodation (5★)	Mt. Michael Lodge (Cromwell / Central Otago)	https://geni.us/MtMichaelLodge		Day 20 confirmed stay — Cromwell (not Wanaka)
+Tue 6 Apr	Wanaka & Central Otago	✨ Special Activity	Wanaka Wine Tour – Central Otago Cellar Doors	https://geni.us/WanakaWineTour		
+Tue 6 Apr	Wanaka & Central Otago	✨ Special Activity	Lake Dunstan Cycle Trail (Cromwell)	https://geni.us/DunstanBiking		
+Tue 6 Apr	Wanaka & Central Otago	✨ Special Activity	Wanaka Water Taxi – Mou Waho	https://geni.us/WanakaMouWaho		
+Tue 6 Apr	Wanaka & Central Otago	✨ Special Activity	Wanaka Pack Rafting	https://geni.us/WanakaPackRafting		
+Wed 7 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Wanaka Water Taxi – Mou Waho Island	https://geni.us/WanakaMouWaho		
+Wed 7 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Wanaka River Journeys Safari	https://geni.us/WanakaRiverSafari		
+Wed 7 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Wanaka Hot Air Ballooning	https://geni.us/WanakaBallooning		
+Wed 7 Apr	Wanaka – Lakes & Autumn Gold	✨ Special Activity	Puzzling World	https://geni.us/WanakaPuzzle		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🚗 Rental Car	Self-drive Wanaka → Te Anau via Queenstown & the Crown Range	https://geni.us/RentalCarOptions		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Trips & Tramps – Milford Sound Cruise & Walk	https://geni.us/TripsTrampsMilford		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	RealNZ Doubtful Sound Wilderness Cruise	https://geni.us/DoubtfulDayTour		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Fiordland Helicopters Scenic Flight	https://geni.us/FiordlandHelicopters		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Queenstown Skyline Gondola (en route)	https://geni.us/QTBiking		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (3★)	Annies on Milford	https://geni.us/AnniesTeAnau		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (4★)	Dusky Ridges	https://geni.us/DuskyRidges		
+Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (5★)	Fiordland Lodge	https://geni.us/FiordlandLodge		
+Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	Trips & Tramps – Milford Cruise & Walk	https://geni.us/TripsTrampsMilford		
+Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	T&T Milford Track Guided Day Walk & Cruise	https://geni.us/TripsTrampsMilfordWalk		
+Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	Fiordland Helicopters Scenic Flight	https://geni.us/FiordlandHelicopters		
+Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	Milford Sound Overnight Cruise	https://geni.us/MilfordOvernighter		
+Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	RealNZ Doubtful Sound Wilderness Day Cruise	https://geni.us/DoubtfulDayTour		
+Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	RealNZ Doubtful Sound Overnight Cruise	https://geni.us/DoubtfulOvernight		
+Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
+Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Fiordland Jet	https://geni.us/FiordlandJet		
+Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	🚗 Rental Car	Self-drive Te Anau → Dunedin via the Southern Scenic Route & Catlins. The longest drive day – start early; the direct route via Gore (~3.5 hrs) is the quicker alternative.	https://geni.us/RentalCarOptions		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Otago Peninsula Wildlife Tour (albatross & penguins)	https://geni.us/DunedinWildlife		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Larnach Castle & City Highlights Tour	https://geni.us/DunedinCityLarnach		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Speight's Brewery Heritage Tour	https://geni.us/SpeightsBrewery		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Dunedin Artisan Food Tour	https://geni.us/ArtisanDunedin		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Olveston Historic House Tour	https://geni.us/OlvestonHouse		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	🏡 Accommodation (3★)	Dunedin Palms Motel	https://geni.us/DunedinPalmMotel		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	🏡 Accommodation (4★)	Distinction Dunedin Hotel	https://geni.us/DistinctionDunedin		
+Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	🏡 Accommodation (5★)	Camp Estate, Larnach Castle	https://geni.us/CampEstateDunedin		
+Mon 12 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Otago Peninsula Wildlife Tour	https://geni.us/DunedinWildlife		
+Mon 12 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Larnach Castle & Gardens	https://geni.us/DunedinCityLarnach		
+Mon 12 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Speight's Brewery Tour	https://geni.us/SpeightsBrewery		
+Mon 12 Apr	Dunedin & Otago Peninsula	✨ Special Activity	Private Dunedin Day Tour	https://geni.us/PrivateDunedin		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🚗 Rental Car	Self-drive Dunedin → Mt Cook / Mackenzie via Oamaru	https://geni.us/RentalCarOptions		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Aoraki Heli-Hiking	https://geni.us/HeliHikeMtCook		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Mt Cook Helicopter Flight with Snow Landing	https://geni.us/MtCookHeliFlight		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Mt John Stargazing Experience (Tekapo)	https://geni.us/StargazingMtJohn		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Dark Sky Project (Tekapo)	https://geni.us/DarkSkyProject		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Mt Cook / Pukaki Observatory Stargazing	https://geni.us/PukakiObservatory		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	✨ Special Activity	Oamaru Blue Penguin Colony	https://geni.us/BluePenguinsOamaru		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (3★)	Mantra Lake Tekapo	https://geni.us/MantraTekapo		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (4★)	Lakestone Lodge, Lake Pukaki	https://geni.us/LakeStoneLodgePukaki		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (5★)	Mt Cook Lakeview Retreat	https://geni.us/MtCookRetreat		
+Tue 13 Apr	Dunedin → Aoraki / Mount Cook (via Oamaru)	🏡 Accommodation (4★)	Nightsky Cottage, Twizel	https://geni.us/NightskyTwizel		
+Wed 14 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Aoraki Heli-Hiking	https://geni.us/HeliHikeMtCook		
+Wed 14 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Mt Cook Helicopter Flight with Snow Landing	https://geni.us/MtCookHeliFlight		
+Wed 14 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Mt John Stargazing (Tekapo)	https://geni.us/StargazingMtJohn		
+Wed 14 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Mt Cook Stargazing	https://geni.us/MtCookStargazing		
+Wed 14 Apr	Aoraki / Mount Cook National Park	✨ Special Activity	Tekapo Scenic Flight	https://geni.us/TekapoScenicFlight		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🚗 Rental Car	Self-drive Mt Cook → Christchurch via the Inland Scenic Route (SH8 / SH72)	https://geni.us/RentalCarOptions		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Christchurch Tram City Tour	https://geni.us/ChchTram		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Gondola, Tram & Punting Combo	https://geni.us/ChchGondolaTramPunt		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Quake City Museum	https://geni.us/ChChQuakeCity		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Akaroa Day Tour & Harbour Cruise	https://geni.us/ChchAkaroaDayTour		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Akaroa Wildlife / Hector's Dolphin Cruise	https://geni.us/AkaroaWildlifeCruise		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	Willowbank Wildlife Reserve	https://geni.us/WillowbankChch		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	✨ Special Activity	International Antarctic Centre	https://geni.us/AntarcticCentre		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (3★)	Orari B&B	https://geni.us/OrariChCh		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (4★)	Hotel Montreal	https://geni.us/HotelMontrealChch		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (5★)	The George Hotel	https://geni.us/TheGeorgeChCh		
+Thu 15 Apr	Mount Cook → Christchurch (Inland Scenic Route)	🏡 Accommodation (4★)	Mayfair Hotel Christchurch	https://geni.us/MayfairChCh		
+Fri 16 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Akaroa Day Tour & Harbour Cruise	https://geni.us/ChchAkaroaDayTour		
+Fri 16 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Akaroa Hector's Dolphin Swim	https://geni.us/AkaroaDolphinSwim		
+Fri 16 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Christchurch Gondola & Tram	https://geni.us/ChchGondolaTram		
+Fri 16 Apr	Christchurch & Banks Peninsula	✨ Special Activity	TranzAlpine Day Tour (Arthur's Pass)	https://geni.us/TranzAlpDayTour		
+Fri 16 Apr	Christchurch & Banks Peninsula	✨ Special Activity	Hot Air Balloon over Canterbury	https://geni.us/ChchHotAirBalloon		
+Sat 17 Apr	Christchurch → Auckland → Home	✈️ Flight	Drop rental car at Christchurch Airport · fly Christchurch → Auckland · connect to international flight home	No		Self-arranged
+Sat 17 Apr	Christchurch → Auckland → Home	🚖 Airport Transfer	Airport → Christchurch → Auckland → Home	https://geni.us/AirportTransfers		
+Sat 17 Apr	Christchurch → Auckland → Home	🚗 Rental Car	Self-drive to Christchurch Airport (car drop) · flight CHC → AKL · international connection	https://geni.us/RentalCarOptions		
+Sat 17 Apr	Christchurch → Auckland → Home	✈️ Flight	International Departure – Auckland (AKL) – Air New Zealand NZ00028 · 07:50pm	No		Self-arranged
+Sat 17 Apr	Christchurch → Auckland → Home	🚖 Airport Transfer	Christchurch → Auckland → Home → Airport	https://geni.us/AirportTransfers		
+Sat 17 Apr	Christchurch → Auckland → Home	🎥 YouTube	NZ Trip Planning & Setup	https://geni.us/NZTripSetup		
+Sat 17 Apr	Christchurch → Auckland → Home	🎥 YouTube	Sample NZ Itineraries	https://geni.us/NZTravelPlans		
+Sat 17 Apr	Christchurch → Auckland → Home	🎥 YouTube	NZ Road Trips & Scenic Drives	https://geni.us/NZRoadTrips		
+Sat 17 Apr	Christchurch → Auckland → Home	🎥 YouTube	Visit Places in NZ	https://geni.us/NZVisitPlaces		
+Sat 17 Apr	Christchurch → Auckland → Home	🎥 YouTube	Best Things To Do in NZ	https://geni.us/NZMustDo		
+Sat 17 Apr	Christchurch → Auckland → Home	🎥 YouTube	Virtual Journeys YouTube	https://www.youtube.com/@virtualjourneysnz		
