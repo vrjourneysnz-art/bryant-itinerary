@@ -85,8 +85,8 @@ Tue 30 Mar	Nelson → Blenheim / Marlborough	✨ Special Activity	Omaka Aviation
 Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (3★)	TBC	No		⚠ Link missing — add manually
 Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (4★)	Laurella Cottage (Marlborough)	https://geni.us/LaurellaCottage		
 Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (5★)	Punga Cove Resort (Marlborough Sounds)	https://geni.us/PungaCoveResort		
-Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (4★)	14th Lane Urban Hotel		No	⚠ Link to confirm
-Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (5★)	Marlborough Lodge		No	⚠ Link to confirm
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (4★)	14th Lane Urban Hotel	https://geni.us/14LaneBlenheim		
+Tue 30 Mar	Nelson → Blenheim / Marlborough	🏡 Accommodation (5★)	Marlborough Lodge	https://geni.us/MarlboroughLodge		
 Wed 31 Mar	Marlborough – Wine & Sounds	✨ Special Activity	Marlborough Half-Day Wine Tour	https://geni.us/BlenheimWineTourHalf		
 Wed 31 Mar	Marlborough – Wine & Sounds	✨ Special Activity	Omaka Aviation Heritage Centre	https://geni.us/Omaka		
 Thu 1 Apr	Blenheim → Greymouth / Punakaiki Coast	🚗 Rental Car	Self-drive Blenheim → Greymouth via St Arnaud (Nelson Lakes). A longer scenic day – start early.	https://geni.us/RentalCarOptions		
