@@ -137,21 +137,20 @@ Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🚗 Rental Car	Self-drive Wanaka 
 Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Trips & Tramps – Milford Sound Cruise & Walk	https://geni.us/TripsTrampsMilford		
 Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
 Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
-Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	RealNZ Doubtful Sound Wilderness Cruise	https://geni.us/DoubtfulDayTour		
+Thu 8 Apr	Wanaka → Doubtful Sound Overnight Cruise (via Queenstown)	🚢 Overnight Cruise	Doubtful Sound Overnight Cruise (overnight aboard) — RealNZ	https://geni.us/DoubtfulOvernight		Confirmed · board Manapouri 8 Apr, return midday 9 Apr
 Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Fiordland Helicopters Scenic Flight	https://geni.us/FiordlandHelicopters		
 Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	✨ Special Activity	Queenstown Skyline Gondola (en route)	https://geni.us/QTBiking		
-Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (3★)	Annies on Milford	https://geni.us/AnniesTeAnau		
-Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (4★)	Dusky Ridges	https://geni.us/DuskyRidges		
-Thu 8 Apr	Wanaka → Te Anau (via Queenstown)	🏡 Accommodation (5★)	Fiordland Lodge	https://geni.us/FiordlandLodge		
+Thu 8 Apr	Wanaka → Doubtful Sound Overnight Cruise (via Queenstown)	🏡 Accommodation	Aboard Doubtful Sound Overnight Cruise — not in Te Anau	https://geni.us/DoubtfulOvernight		Overnight aboard
+Fri 9 Apr	Fiordland – Te Anau (2 nights · 9–10 Apr)	🏡 Accommodation (3★)	Annies on Milford	https://geni.us/AnniesTeAnau		
+Fri 9 Apr	Fiordland – Te Anau (2 nights · 9–10 Apr)	🏡 Accommodation (4★)	Dusky Ridges	https://geni.us/DuskyRidges		
+Fri 9 Apr	Fiordland – Te Anau (2 nights · 9–10 Apr)	🏡 Accommodation (5★)	Fiordland Lodge	https://geni.us/FiordlandLodge		
 Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	Trips & Tramps – Milford Cruise & Walk	https://geni.us/TripsTrampsMilford		
 Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	T&T Milford Track Guided Day Walk & Cruise	https://geni.us/TripsTrampsMilfordWalk		
 Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	Fiordland Helicopters Scenic Flight	https://geni.us/FiordlandHelicopters		
 Fri 9 Apr	Fiordland – Milford Sound	✨ Special Activity	Milford Sound Overnight Cruise	https://geni.us/MilfordOvernighter		
-Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	RealNZ Doubtful Sound Wilderness Day Cruise	https://geni.us/DoubtfulDayTour		
-Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	RealNZ Doubtful Sound Overnight Cruise	https://geni.us/DoubtfulOvernight		
-Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
-Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Fiordland Jet	https://geni.us/FiordlandJet		
-Sat 10 Apr	Fiordland – Doubtful Sound & Kepler	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
+Sat 10 Apr	Te Anau – Fiordland at Leisure (Kepler & Glowworms)	✨ Special Activity	Te Anau Glowworm Caves Tour	https://geni.us/TeAnauCaves		
+Sat 10 Apr	Te Anau – Fiordland at Leisure (Kepler & Glowworms)	✨ Special Activity	Fiordland Jet	https://geni.us/FiordlandJet		
+Sat 10 Apr	Te Anau – Fiordland at Leisure (Kepler & Glowworms)	✨ Special Activity	Routeburn / Key Summit Guided Walk	https://geni.us/RouteburnKeyWalk		
 Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	🚗 Rental Car	Self-drive Te Anau → Dunedin via the Southern Scenic Route & Catlins. The longest drive day – start early; the direct route via Gore (~3.5 hrs) is the quicker alternative.	https://geni.us/RentalCarOptions		
 Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Otago Peninsula Wildlife Tour (albatross & penguins)	https://geni.us/DunedinWildlife		
 Sun 11 Apr	Te Anau → Dunedin (Southern Scenic Route)	✨ Special Activity	Larnach Castle & City Highlights Tour	https://geni.us/DunedinCityLarnach		
